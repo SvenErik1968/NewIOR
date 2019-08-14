@@ -26,13 +26,20 @@ Dispersion is a little more complex than birefringence. Birefringence is affecti
 The crystals have been separated into 3 files based on their cleavage structure. The subject is fairly complex, and I have not figured it all out yet. So I will not have a long explanation on the subject here. If you want to read up on it, then take a look at some of the websites that I have listed above, particularly the links section of the [Mineralogy Database](http://www.webmineral.com/).
 
 ## Isotropic minerals
-Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the *IOR_Isotropic.inc* file.
+Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file.
 
 ## Amorphous minerals
-These minerals do not have an ordered structure like crystals. They include most types of glass, and minerals like amber, opal, tektites and obsidian. These minerals are listed in the *IOR_Isotropic.inc* file with the isometric minerals.
+These minerals do not have an ordered structure like crystals. They include most types of glass, and minerals like amber, opal, tektites and obsidian. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file with the isometric minerals.
 
 ## Uniaxial minerals
-Hexagonal, trigonal and tetragonal minerals have a different structure along their primary axes than they do in all other directions and for this reason they have two indices of refraction, one along the primary axis and one for every other direction. These minerals are called uniaxial minerals for their one unique direction. These minerals are listed in the *IOR_Uniaxial.inc* file.
+Hexagonal, trigonal and tetragonal minerals have a different structure along their primary axes than they do in all other directions and for this reason they have two indices of refraction, one along the primary axis and one for every other direction. These minerals are called uniaxial minerals for their one unique direction. These minerals are listed in the [*IOR_Uniaxial.inc*](./IOR_Uniaxial.inc) file.
 
 ## Biaxial minerals
-Orthorhombic, monoclinic and triclinic minerals have two planes of equal refractive indices and are called biaxial. These minerals are listed in the *IOR_Biaxial.inc* file.
+Orthorhombic, monoclinic and triclinic minerals have two planes of equal refractive indices and are called biaxial. These minerals are listed in the [*IOR_Biaxial.inc*](./IOR_Biaxial.inc) file.
+
+## Special files
+### Gemstones IOR
+This is an extract from the NewIOR-files containing the IOR-values for the gemstones. These minerals are listed in the [*IOR_Gemstones.inc*](./Special/IOR_Gemstones.inc) file.
+
+### Gem Cuts
+From an old include file called Gems.inc. Creator unknown. Anyone who recognice this? It contains object definitions for 6 different common gemstone cuts. It also contains formulaes for calculating the carat weight for several cuts. You find these in the [*Gem_Cuts.inc*](./Special/Gem_Cuts.inc) file.
