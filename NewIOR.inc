@@ -90,9 +90,9 @@ Contributors and websites of interest:
     startpoint. This site is a service by a company called Amethyst Galleries, Inc.,
     and I am not in any way connected them, or get any money from them. It's just
     that it is a very fine resource of information on crystals and other minerals.
-  - Mineralogy Database at http://web.wt.net/~daba/Mineral/index.htm have a lot of
+  - Mineralogy Database at http://www.webmineral.com have a lot of
     info and images, plus a large link-section to other related sites.
-  - The Mineral and Gemstone Kingdom at http://www.minerals.net/
+  - The Mineral and Gemstone Kingdom at https://www.minerals.net/
 **********************************************************************************
 
 ** WANTED!!! **
@@ -128,7 +128,7 @@ structure. The subject is fairly complex, and I have not figured it all
 out yet. So I will not have a long explanation on the subject here. If
 you want to read up on it, then take a look at some of the websites that
 I have listed above, particularly the links section of the Mineralogy
-Database (http://web.wt.net/~daba/Mineral/index.htm).
+Database (http://www.webmineral.com/).
 
 ** Isotropic minerals **
 Isometric and amorphous (like glass) minerals have essentially the same
