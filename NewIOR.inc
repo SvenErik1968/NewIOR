@@ -2,7 +2,7 @@
     // do nothing
 #else
     #declare NewIOR_Inc_Temp = version;
-    #version 3.1;
+    #version 3.7;
     #ifdef(View_POV_Include_Stack)
         #debug "including NewIOR.inc\n"
     #end
@@ -12,28 +12,29 @@
 /////////////////////////////////////////////////////////////////////////
 //                                                                     //
 // TITLE    : NewIOR.INC                                               //
-// VERSION  : 4.10b                                                    //
+// VERSION  : 4.9                                                    //
 // AUTHOR   : Sven-Erik Andersen                                       //
 // DATE     : 1994.06.28                                               //
 //                                                                     //
-// REVISION : 1994.12.13 Added many new values, most contributed by    //
+// REVISION : 1994-12-13 Added many new values, most contributed by    //
 //                       Mikhail Elashkin from Russia                  //
-// REVISION : 2000.04.10 Added many new values, now up to 181          //
-// REVISION : 2000.04.29 Corrected a bug; average of Greenockite_IOR   //
+// REVISION : 2000-04-10 Added many new values, now up to 181          //
+// REVISION : 2000-04-29 Corrected a bug; average of Greenockite_IOR   //
 //                       was not calculated.                           //
-// REVISION : 2000.05.23 Added some new values, plus dispersion for    //
+// REVISION : 2000-05-23 Added some new values, plus dispersion for    //
 //                       some minerals to be used with MegaPOV. Also   //
 //                       fixed the average calculations, from          //
 //                       X+Y/2 to (X+Y)/2. Thanks to Sigmund Kyrre Aas //
 //                       for spotting that!                            //
-// REVISION : 2000.07.06 Complete rewrite and reorganisation of the    //
+// REVISION : 2000-07-06 Complete rewrite and reorganisation of the    //
 //                       file. There are now so many values so I       //
 //                       decided to separate them into multiple files. //
 //                       Now contains +2850 minerals.                  //
-// REVISION : 2000.11.26 Added dispersion values for 38 minerals.      //
-// REVISION : 2001.03.09 Changed the license from the OPEN PUBLICATION //
+// REVISION : 2000-11-26 Added dispersion values for 38 minerals.      //
+// REVISION : 2001-03-09 Changed the license from the OPEN PUBLICATION //
 //                       LICENSE to The GNU Lesser General Public      //
 //                       License, v2.1                                 //
+// REVISION : 2019-08-14 Now on GitHub                                 //
 //                                                                     //
 /////////////////////////////////////////////////////////////////////////
 
