@@ -10,11 +10,13 @@ So instead, I decided to put it up here on Github and update it for newer versio
 
 ## Contributors and websites of interest:
 - Some have been forgotten due to malfunctions in wetware and hardware…
-- Mikhail Elashkin <artimind@aoi.isrir.msk.su> from the Independent Group "Developing Games Software", Russia, Moscow
-- Sigmund Kyrre Aas <as@stud.ntnu.no>
-- Many new values where found at http://www.galleries.com. If you want to know more about crystals, gemstones and other minerals then that is a fine startpoint. This site is a service by a company called Amethyst Galleries, Inc., and I am not in any way connected them, or get any money from them. It's just that it is a very fine resource of information on crystals and other minerals.
-- Mineralogy Database at http://web.wt.net/~daba/Mineral/index.htm have a lot of info and images, plus a large link-section to other related sites.
-- The Mineral and Gemstone Kingdom at http://www.minerals.net/
+- Mikhail Elashkin  from the Independent Group "Developing Games Software", Russia, Moscow
+- Sigmund Kyrre Aas (was a student at NTNU, Trondheim, Norway)
+- Many new values where found at [Amethyst Galleries' Mineral Gallery](http://www.galleries.com). If you want to know more about crystals, gemstones and other minerals then that is a fine startpoint. This site is a service by a company called Amethyst Galleries, Inc., and I am not in any way connected them, or get any money from them. It's just that it is a very fine resource of information on crystals and other minerals.
+- [Mineralogy Database](http://www.webmineral.com) have a lot of info and images, plus a large link-section to other related sites.
+- [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
+- [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia
+- [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
 
 ## Birefringence
 Birefringence is the difference between the highest and lowest IOR in a mineral. Most minerals have a very low birefringence, notable exceptions is the carbonates. The birefringence causes the ray of light that enters a mineral to split in two rays, one slow and one fast. When the two rays exits the crystal they are bent in two different angles. If you were to look through such a mineral (maybe calcite, it has one of the highest birefringence values), you would see two pictures. This is also called double refraction. I will include the birefringence values that I have, which is most of the uniaxial and biaxial minerals. Hopefully someone will create a patch so it can be of use someday.
