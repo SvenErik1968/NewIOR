@@ -48,6 +48,7 @@
 #declare Glyme_IOR = 1.3796; // Solvent
 #declare Heptane_IOR = 1.3876; // Solvent
 #declare Hexane_IOR = 1.3749; // Solvent
+#declare Hydrogen_Liquid_IOR = 1.0974; // => https://physics.info/refraction/
 #declare Iso_Octane_IOR = 1.3914; // Solvent
 #declare Isobutyl_Alcohol_IOR = 1.3959; // Solvent
 #declare Isopropyl_Alcohol_IOR = 1.3772; // Solvent
@@ -61,7 +62,9 @@
 #declare Methyl_salicylate_IOR = 1.538; // oil of wintergreen or wintergreen oil
 #declare Methyl_t_Butyl_Ether_IOR = 1.3689; // Solvent
 #declare Methylene_iodine_IOR = 1.737; // Diiodomethane
-#declare Milk_IOR = 1.35;
+#declare Microscope_Immersion_Oil_IOR = 1.515; // => https://physics.info/refraction/
+#declare Milk_IOR = 1.35; // => https://physics.info/refraction/
+#declare Mineral_Oil_IOR = 1.470; // Liquid refractive index mineral oil, standard reference material 1922 => https://physics.info/refraction/
 #declare n_Butyl_Acetate_IOR = 1.3942; // Solvent
 #declare n_Butyl_Alcohol_IOR = 1.3993; // Solvent
 #declare n_Butyl_Chloride_IOR = 1.4021; // Solvent
@@ -90,7 +93,7 @@
 #declare Triethylamine_IOR = 1.4010; // Solvent
 #declare Trifluoroacetic_Acid_IOR = 1.2850; // Solvent
 #declare Turpentine = 1.47;
-#declare Vegetable_Oil_50C_IOR = 1.47; // At 50 degrees Celsius
+#declare Vegetable_Oil_50C_IOR = 1.47; // At 50°C => https://physics.info/refraction/
 #declare Water_0C_IOR = 1.33346; // Liquid, 0°C => https://physics.info/refraction/
 #declare Water_20C_IOR = 1.33283; // Liquid, 20°C => https://physics.info/refraction/
 #declare Water_100C_IOR = 1.31766; // Liquid, 100°C => https://physics.info/refraction/
