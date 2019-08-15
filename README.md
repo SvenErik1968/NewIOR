@@ -1,6 +1,6 @@
 # NewIOR
 ## Additional index of refraction values for use with POV-Ray - The Persistence of Vision Raytracer™.
-This is initially based on the v4.10b that I released back in 2001-03-09, my use of POV-Ray have been rather infrequent since then. But I have now started to "play around" with it a little bit again.
+This is initially based on the v4.10b that I released back in 2001-03-09, my use of POV-Ray have been rather infrequent since then, but I have now started to "play around" with it a little bit again.
 
 The latest release is still available on a free webhosting site, but I don't have the password to it anymore. I also don't have access to the email address the site was registered with… ;-)
 
@@ -45,7 +45,7 @@ There is also an old holdover from a previous version, the [*IOR_Misc.inc*](./IO
 
 ## Special files
 ### Gemstones IOR
-This is an extract from the NewIOR-files containing the IOR-values for the gemstones. These minerals are listed in the [*IOR_Gemstones.inc*](./Special/IOR_Gemstones.inc) file.
+This is an extract from the other files containing the IOR-values for various common gemstones. These minerals are listed in the [*IOR_Gemstones.inc*](./Special/IOR_Gemstones.inc) file.
 
 ### Gem Cuts
-From an old include file called Gems.inc. Creator unknown. Anyone who recognice this? It contains object definitions for 6 different common gemstone cuts. It also contains formulaes for calculating the carat weight for several cuts. You find these in the [*Gem_Cuts.inc*](./Special/Gem_Cuts.inc) file.
+From an old include file called Gems.inc. Creator is unknown. Anyone who recognice this? It contains object definitions for 6 different common gemstone cuts. It also contains formulaes for calculating the carat weight for several cuts. You find these in the [*Gem_Cuts.inc*](./Special/Gem_Cuts.inc) file.
