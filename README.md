@@ -15,6 +15,9 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
+- https://www.engineeringtoolbox.com/refractive-index-d_1264.html
+- https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
+
 
 ## Birefringence
 Birefringence is the difference between the highest and lowest IOR in a mineral. Most minerals have a very low birefringence, notable exceptions is the carbonates. The birefringence causes the ray of light that enters a mineral to split in two rays, one slow and one fast. When the two rays exits the crystal they are bent in two different angles. If you were to look through such a mineral (maybe calcite, it has one of the highest birefringence values), you would see two pictures. This is also called double refraction. I will include the birefringence values that I have, which is most of the uniaxial and biaxial minerals. Hopefully someone will create a patch so it can be of use someday. I think I will separate out the values into a separate file that will not be loaded by default.
