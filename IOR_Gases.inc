@@ -17,9 +17,11 @@
 #declare Hydrogen_0C_IOR = 1.000132;
 
 //
+//
+//
 #declare Perfluoro_n_butane = 1.0014: // C4F10 => https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
 #declare Acetone_Gas_IOR = 1.001090;
-#declare Alcohol_Ethyl_Gas_IOR = 1.000878;
+#declare Ethyl_Alcohol_Gas_IOR = 1.000878;
 #declare Alcohol_Methyl_Gas_IOR = 1.000586;
 #declare Ammonia_Gas_IOR = 1.000376;
 #declare Argon_Gas_IOR = 1.000281;
@@ -40,7 +42,6 @@
 #declare Pentane_Gas_IOR = 1.000686;
 #declare Sulphur_Dioxide_Gas_IOR = 1.000686;
 #declare Water_Vapor_IOR = 1.000261;
-
 
 
 #ifdef(View_POV_Include_Stack)
