@@ -2,7 +2,7 @@
     // do nothing
 #else
     #declare IOR_Gemstones_inc_Temp = version;
-    #version 3.1;
+    #version 3.7;
     #ifdef(View_POV_Include_Stack)
         #debug "including IOR_Gemstones.inc\n"
     #end
