@@ -17,6 +17,7 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
 - https://www.engineeringtoolbox.com/refractive-index-d_1264.html
 - https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
+- https://physics.info/refraction/
 
 
 ## Birefringence
