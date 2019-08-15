@@ -92,7 +92,7 @@
 #declare Trichlorofluoromethane_refrigerant_R_11_IOR = 1.37; // Refrigerant
 #declare Triethylamine_IOR = 1.4010; // Solvent
 #declare Trifluoroacetic_Acid_IOR = 1.2850; // Solvent
-#declare Turpentine = 1.47;
+#declare Turpentine_IOR = 1.47;
 #declare Vegetable_Oil_50C_IOR = 1.47; // At 50°C => https://physics.info/refraction/
 #declare Water_0C_IOR = 1.33346; // Liquid, 0°C => https://physics.info/refraction/
 #declare Water_20C_IOR = 1.33283; // Liquid, 20°C => https://physics.info/refraction/
