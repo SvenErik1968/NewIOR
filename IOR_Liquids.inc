@@ -91,8 +91,9 @@
 #declare Trifluoroacetic_Acid_IOR = 1.2850; // Solvent
 #declare Turpentine = 1.47;
 #declare Vegetable_Oil_50C_IOR = 1.47; // At 50 degrees Celsius
-#declare Water_20_C_IOR = 1.333; // 20 degrees Celsius STP
-
+#declare Water_0C_IOR = 1.33346; // Liquid, 0°C => https://physics.info/refraction/
+#declare Water_20C_IOR = 1.33283; // Liquid, 20°C => https://physics.info/refraction/
+#declare Water_100C_IOR = 1.31766; // Liquid, 100°C => https://physics.info/refraction/
 
 #ifdef(View_POV_Include_Stack)
     #debug "    ...done!\n"
