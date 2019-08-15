@@ -4,6 +4,8 @@
 /////////////////////////////////////////////////
 //        ISOTROPIC MINERALS                   //
 /////////////////////////////////////////////////
+#declare Acrylic_IOR = 1.495; // acrylic (lucite, plexiglas) => https://physics.info/refraction/
+#declare Amber_IOR = 1.546; // => https://physics.info/refraction/
 #declare Aeschynite_Ce_IOR_n_1 = 2.26;
 #declare Aeschynite_Nd_IOR_n_1 = 2.2;
 #declare Aeschynite_Nd_IOR_n_2 = 2.4;
