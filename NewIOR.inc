@@ -2,7 +2,7 @@
     // do nothing
 #else
     #declare NewIOR_Inc_Temp = version;
-    #version 3.1;
+    #version 3.7;
     #ifdef(View_POV_Include_Stack)
         #debug "including NewIOR.inc\n"
     #end
@@ -12,28 +12,29 @@
 /////////////////////////////////////////////////////////////////////////
 //                                                                     //
 // TITLE    : NewIOR.INC                                               //
-// VERSION  : 4.10b                                                    //
+// VERSION  : 4.9                                                    //
 // AUTHOR   : Sven-Erik Andersen                                       //
 // DATE     : 1994.06.28                                               //
 //                                                                     //
-// REVISION : 1994.12.13 Added many new values, most contributed by    //
+// REVISION : 1994-12-13 Added many new values, most contributed by    //
 //                       Mikhail Elashkin from Russia                  //
-// REVISION : 2000.04.10 Added many new values, now up to 181          //
-// REVISION : 2000.04.29 Corrected a bug; average of Greenockite_IOR   //
+// REVISION : 2000-04-10 Added many new values, now up to 181          //
+// REVISION : 2000-04-29 Corrected a bug; average of Greenockite_IOR   //
 //                       was not calculated.                           //
-// REVISION : 2000.05.23 Added some new values, plus dispersion for    //
+// REVISION : 2000-05-23 Added some new values, plus dispersion for    //
 //                       some minerals to be used with MegaPOV. Also   //
 //                       fixed the average calculations, from          //
 //                       X+Y/2 to (X+Y)/2. Thanks to Sigmund Kyrre Aas //
 //                       for spotting that!                            //
-// REVISION : 2000.07.06 Complete rewrite and reorganisation of the    //
+// REVISION : 2000-07-06 Complete rewrite and reorganisation of the    //
 //                       file. There are now so many values so I       //
 //                       decided to separate them into multiple files. //
 //                       Now contains +2850 minerals.                  //
-// REVISION : 2000.11.26 Added dispersion values for 38 minerals.      //
-// REVISION : 2001.03.09 Changed the license from the OPEN PUBLICATION //
+// REVISION : 2000-11-26 Added dispersion values for 38 minerals.      //
+// REVISION : 2001-03-09 Changed the license from the OPEN PUBLICATION //
 //                       LICENSE to The GNU Lesser General Public      //
 //                       License, v2.1                                 //
+// REVISION : 2019-08-14 Now on GitHub                                 //
 //                                                                     //
 /////////////////////////////////////////////////////////////////////////
 
@@ -89,9 +90,9 @@ Contributors and websites of interest:
     startpoint. This site is a service by a company called Amethyst Galleries, Inc.,
     and I am not in any way connected them, or get any money from them. It's just
     that it is a very fine resource of information on crystals and other minerals.
-  - Mineralogy Database at http://web.wt.net/~daba/Mineral/index.htm have a lot of
+  - Mineralogy Database at http://www.webmineral.com have a lot of
     info and images, plus a large link-section to other related sites.
-  - The Mineral and Gemstone Kingdom at http://www.minerals.net/
+  - The Mineral and Gemstone Kingdom at https://www.minerals.net/
 **********************************************************************************
 
 ** WANTED!!! **
@@ -127,7 +128,7 @@ structure. The subject is fairly complex, and I have not figured it all
 out yet. So I will not have a long explanation on the subject here. If
 you want to read up on it, then take a look at some of the websites that
 I have listed above, particularly the links section of the Mineralogy
-Database (http://web.wt.net/~daba/Mineral/index.htm).
+Database (http://www.webmineral.com/).
 
 ** Isotropic minerals **
 Isometric and amorphous (like glass) minerals have essentially the same

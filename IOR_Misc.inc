@@ -24,6 +24,39 @@
 #declare Tooth_structure_enamel_IOR = 1.655;
 #declare Zinc_sulfide_IOR = 2.400; // ZnS. Common name is zinc blende. Ionic crystal having a beautiful redish yellow color.
 
+//
+// Ophthalmic materials, plastics
+// Source: https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+//
+#declare CR-39_Hard_Resin_IOR = 1.49;
+#declare PPG_Trivex_(Average)_IOR = 1.53;
+#declare SOLA_Spectralite_IOR = 1.54;
+#declare Essilor_Ormix_IOR = 1.6;
+#declare Polycarbonate_IOR = 1.586;
+#declare MR-8_1.6_Plastic_IOR = 1.6;
+#declare MR-6_1.6_Plastic_IOR = 1.6;
+#declare MR-20_1.6_Plastic_IOR = 1.60;
+#declare SOLA_Finalite_IOR = 1.60;
+#declare MR-7_1.665_Plastic_IOR = 1.665;
+#declare MR-7_1.67_Plastic_IOR = 1.67;
+#declare MR-10_1.67_Plastic_IOR = 1.67;
+#declare Nikon_4_Plastic_NL4_IOR = 1.67;
+#declare Hoya_EYRY_IOR = 1.70;
+#declare MR-174_1.74_Plastic_IOR = 1.74;
+#declare Nikon_5_Plastic_NL5_IOR = 1.74;
+#declare Tokai_IOR = 1.76;
+
+//
+// Ophthalmic materials, glass
+// Source: https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+//
+#declare Crown_Glass_IOR = 1.525;
+#declare PhotoGray_Extra_IOR = 1.523;
+#declare 1.6_Glass_IOR = 1.604;
+#declare 1.7_Glass_IOR = 1.706;
+#declare 1.8_Glass_IOR = 1.800;
+#declare 1.9_Glass_IOR = 1.893;
+
 
 #ifdef(View_POV_Include_Stack)
     #debug "  - including IOR_Misq.inc\n"
