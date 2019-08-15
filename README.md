@@ -1,12 +1,10 @@
 # NewIOR
 ## Additional index of refraction values for use with POV-Ray - The Persistence of Vision Raytracer™.
-
-This is initially based on the v4.10b that I released back in 2001-03-09, my use of POV-Ray have been rather infrequent since then. But I have now started to "play around" with it a little bit.
+This is initially based on the v4.10b that I released back in 2001-03-09, my use of POV-Ray have been rather infrequent since then. But I have now started to "play around" with it a little bit again.
 
 The latest release is still available on a free webhosting site, but I don't have the password to it anymore. I also don't have access to the email address the site was registered with… ;-)
 
 So instead, I decided to put it up here on Github and update it for newer versions of POV-Ray, the latest version I did back in 2001 was for POV-Ray v3.1.
-
 
 ## Contributors and websites of interest:
 - Some have been forgotten due to malfunctions in wetware and hardware…
@@ -30,14 +28,18 @@ The crystals have been separated into 3 files based on their cleavage structure.
 ## Isotropic minerals
 Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file.
 
-## Amorphous minerals
-These minerals do not have an ordered structure like crystals. They include most types of glass, and minerals like amber, opal, tektites and obsidian. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file with the isometric minerals.
-
 ## Uniaxial minerals
 Hexagonal, trigonal and tetragonal minerals have a different structure along their primary axes than they do in all other directions and for this reason they have two indices of refraction, one along the primary axis and one for every other direction. These minerals are called uniaxial minerals for their one unique direction. These minerals are listed in the [*IOR_Uniaxial.inc*](./IOR_Uniaxial.inc) file.
 
 ## Biaxial minerals
 Orthorhombic, monoclinic and triclinic minerals have two planes of equal refractive indices and are called biaxial. These minerals are listed in the [*IOR_Biaxial.inc*](./IOR_Biaxial.inc) file.
+
+## Amorphous minerals
+These minerals do not have an ordered structure like crystals. They include most types of glass, and minerals like amber, opal, tektites and obsidian. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file with the isometric minerals.
+
+## Gasses & Liquids
+I have separated out the IOR-values for gasses and liquids into their own separate filer, [*IOR_Gases.inc*](./IOR_Gases.inc) and [*IOR_Liquids.inc*](./IOR_Liquids.inc)
+
 
 ## Special files
 ### Gemstones IOR
