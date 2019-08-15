@@ -254,6 +254,7 @@
 #declare Vismirnovite_IOR_n_1 = 1.735;
 #declare Voltaite_IOR_n_1 = 1.602;
 #declare Wadalite_IOR_n_1 = 1.708;
+#declare Water_Ice_IOR = 1.309; => https://physics.info/refraction/
 #declare Wickmanite_IOR_n_1 = 1.705;
 #declare Winstanleyite_IOR_n_1 = 2.34;
 #declare Yafsoanite_IOR_n_1 = 1.8;
