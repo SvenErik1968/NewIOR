@@ -40,6 +40,8 @@ These minerals do not have an ordered structure like crystals. They include most
 ## Gasses & Liquids
 I have separated out the IOR-values for gasses and liquids into their own separate filer, [*IOR_Gases.inc*](./IOR_Gases.inc) and [*IOR_Liquids.inc*](./IOR_Liquids.inc)
 
+There is also an old holdover from a previous version, the [*IOR_Misc.inc*](./IOR_Misc.inc); will need to move the values there to the others files where they belong.
+
 
 ## Special files
 ### Gemstones IOR
