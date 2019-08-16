@@ -444,9 +444,9 @@
 #declare Calcurmolite_Birefringence_1 = 0.0360;
 #declare Calcurmolite_Birefringence_2 = 0.0400;
 
-#declare Calomel_IOR_e_1 = 2.65;
-#declare Calomel_IOR_w_1 = 1.97;
-#declare Calomel_Birefringence_1 = 0.6800;
+#declare Calomel_IOR_e_1 = 2.656;
+#declare Calomel_IOR_w_1 = 1.973;
+#declare Calomel_Birefringence_1 = 0.683;
 
 #declare Calzirtite_IOR_e_1 = 2.3;
 #declare Calzirtite_IOR_e_2 = 2.36;
@@ -1185,6 +1185,10 @@
 #declare Heinrichite_IOR_e_1 = 1.573;
 #declare Heinrichite_IOR_w_1 = 1.605;
 #declare Heinrichite_Birefringence_1 = 0.0320;
+
+#declare Hematite_IOR_e_1 = 3.220; // Fe2O3 => https://physics.info/refraction/
+#declare Hematite_IOR_w_1 = 2.940; // Fe2O3 => https://physics.info/refraction/
+#declare Hematite_Birefringence_1 = 0.287; // Fe2O3 => https://physics.info/refraction/
 
 #declare Hematolite_IOR_e_1 = 1.714;
 #declare Hematolite_IOR_w_1 = 1.733;
@@ -2712,6 +2716,10 @@
 #declare Wardsmithite_IOR_e_1 = 1.476;
 #declare Wardsmithite_IOR_w_1 = 1.49;
 #declare Wardsmithite_Birefringence_1 = 0.0140;
+
+#declare Water_ice_IOR_e_1 = 1.313;
+#declare Water_ice_IOR_w_1 = 1.309;
+#declare Water_ice_Birefringence_1 = 0.014;
 
 #declare Waylandite_IOR_e_1 = 1.748;
 #declare Waylandite_IOR_w_1 = 1.774;
