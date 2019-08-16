@@ -10,14 +10,14 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - Some have been forgotten due to malfunctions in wetware and hardware…
 - Mikhail Elashkin  from the Independent Group "Developing Games Software", Russia, Moscow
 - Sigmund Kyrre Aas (was a student at NTNU, Trondheim, Norway)
-- Many new values where found at [Amethyst Galleries' Mineral Gallery](http://www.galleries.com). If you want to know more about crystals, gemstones and other minerals then that is a fine startpoint. This site is a service by a company called Amethyst Galleries, Inc., and I am not in any way connected them, or get any money from them. It's just that it is a very fine resource of information on crystals and other minerals.
+- Many values where found at [Amethyst Galleries' Mineral Gallery](http://www.galleries.com). If you want to know more about crystals, gemstones and other minerals then that is a fine startpoint. This site is a service by a company called Amethyst Galleries, Inc., and I am not in any way connected them, or get any money from them. It's just that it is a very fine resource of information on crystals and other minerals.
 - [Mineralogy Database](http://www.webmineral.com) have a lot of info and images, plus a large link-section to other related sites.
 - [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
-- https://www.engineeringtoolbox.com/refractive-index-d_1264.html
-- https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
-- https://physics.info/refraction/
+- [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html)
+- [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10)
+- [The Physics Hypertextbook - Refraction](https://physics.info/refraction/)
 
 
 ## Birefringence
