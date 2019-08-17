@@ -5,7 +5,8 @@
 /////////////////////////////////////////////////
 //        ISOTROPIC MINERALS                   //
 /////////////////////////////////////////////////
-#declare Acrylic_IOR = 1.495;\\ Acrylic (lucite, plexiglas) => https://physics.info/refraction/
+#declare Acrylic_IOR_1 = 1.49;\\ Acrylic, lucite, plexiglas
+#declare Acrylic_IOR_2 = 1.57;\\ Acrylic, lucite, plexiglas
 #declare Aeschynite_Ce_IOR_n_1 = 2.26;
 #declare Aeschynite_Nd_IOR_n_1 = 2.2;
 #declare Aeschynite_Nd_IOR_n_2 = 2.4;
@@ -283,6 +284,30 @@
 #declare Tooth_structure_Cementum_IOR = 1.582;\\ => https://www.ncbi.nlm.nih.gov/pubmed/19566303
 #declare Tooth_structure_Dentin_IOR = 1.540;\\ => https://www.ncbi.nlm.nih.gov/pubmed/19566303
 #declare Tooth_structure_Enamel_IOR = 1.631;\\ => https://www.ncbi.nlm.nih.gov/pubmed/19566303
+#declare Transparent_Thermoplastic_Fluoropolymers_IOR_1 = 1.34;
+#declare Transparent_Thermoplastic_Fluoropolymers_IOR_2 = 1.4;
+#declare Transparent_Thermoplastic_PA_IOR_1 = 1.53;
+#declare Transparent_Thermoplastic_PA_IOR_2 = 1.54;
+#declare Transparent_Thermoplastic_PC_IOR_1 = 1.58;
+#declare Transparent_Thermoplastic_PC_IOR_2 = 1.6;
+#declare Transparent_Thermoplastic_PE_IOR_1 = 1.51;
+#declare Transparent_Thermoplastic_PE_IOR_2 = 1.54;
+#declare Transparent_Thermoplastic_PEEK_IOR_1 = 1.65;
+#declare Transparent_Thermoplastic_PEEK_IOR_2 = 1.77;
+#declare Transparent_Thermoplastic_PEI_IOR_1 = 1.66;
+#declare Transparent_Thermoplastic_PEI_IOR_2 = 1.67;
+#declare Transparent_Thermoplastic_PET_IOR_1 = 1.55;
+#declare Transparent_Thermoplastic_PET_IOR_2 = 1.64;
+#declare Transparent_Thermoplastic_PP_IOR_1 = 1.5;
+#declare Transparent_Thermoplastic_PP_IOR_2 = 1.51;
+#declare Transparent_Thermoplastic_PS_IOR_1 = 1.55;
+#declare Transparent_Thermoplastic_PS_IOR_2 = 1.59;
+#declare Transparent_Thermoplastic_PUR_IOR_1 = 1.5;
+#declare Transparent_Thermoplastic_PUR_IOR_2 = 1.6;
+#declare Transparent_Thermoplastic_PVC_IOR_1 = 1.53;
+#declare Transparent_Thermoplastic_PVC_IOR_2 = 1.55;
+#declare Transparent_Thermoplastic_Sulfone_IOR_1 = 1.63;
+#declare Transparent_Thermoplastic_Sulfone_IOR_2 = 1.65;
 #declare Tritomite_Ce_IOR_n_1 = 1.65;
 #declare Tritomite_Ce_IOR_n_2 = 1.757;
 #declare Tritomite_Y_IOR_n_1 = 1.63;
