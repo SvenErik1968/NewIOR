@@ -413,8 +413,8 @@
 #declare Cookeite_Birefringence_2 = 0.0240;
 #declare Copiapite_Birefringence_1 = 0.0600;
 #declare Copiapite_Birefringence_2 = 0.0690;
-#declare Cordierite_Birefringence_1 = 0.008;\\ Also known as Iolite
-#declare Cordierite_Birefringence_2 = 0.012;\\ Also known as Iolite
+#declare Cordierite_Birefringence_1 = 0.008; // Also known as Iolite
+#declare Cordierite_Birefringence_2 = 0.012; // Also known as Iolite
 #declare Cornetite_Birefringence_1 = 0.0550;
 #declare Cornwallite_Birefringence_1 = 0.0380;
 #declare Cotunnite_Birefringence_1 = 0.0610;
@@ -1439,8 +1439,8 @@
 #declare Pentagonite_Birefringence_1 = 0.0140;
 #declare Pentahydrite_Birefringence_1 = 0.0110;
 #declare Pentahydroborite_Birefringence_1 = 0.0130;
-#declare Peridot_Birefringence_1 = 0.035;\\ Peridot is a gem-quality Olivine
-#declare Peridot_Birefringence_2 = 0.038;\\ Peridot is a gem-quality Olivine
+#declare Peridot_Birefringence_1 = 0.035; // Peridot is a gem-quality Olivine
+#declare Peridot_Birefringence_2 = 0.038; // Peridot is a gem-quality Olivine
 #declare Perlialite_Birefringence_1 = 0.0050;
 #declare Perloffite_Birefringence_1 = 0.0150;
 #declare Perovskite_Birefringence_1 = 0.0800;
@@ -2400,7 +2400,7 @@
 #declare Hauckite_Birefringence_1 = 0.0080;
 #declare Hedyphane_Birefringence_1 = 0.0100;
 #declare Heinrichite_Birefringence_1 = 0.0320;
-#declare Hematite_Birefringence_1 = 0.287;\\ Fe2O3 => https://physics.info/refraction/
+#declare Hematite_Birefringence_1 = 0.287; // Fe2O3 => https://physics.info/refraction/
 #declare Hematolite_Birefringence_1 = 0.0190;
 #declare Henritermierite_Birefringence_1 = 0.0350;
 #declare Hetaerolite_Birefringence_1 = 0.2000;
@@ -2769,8 +2769,8 @@
 #declare Vanadinite_Birefringence_1 = 0.0660;
 #declare Vaterite_Birefringence_1 = 0.1000;
 #declare Verplanckite_Birefringence_1 = 0.0110;
-#declare Vesuvianite_Birefringence_1 = 0.0040;\\ Also known as Idocrase
-#declare Vesuvianite_Birefringence_2 = 0.0060;\\ Also known as Idocrase
+#declare Vesuvianite_Birefringence_1 = 0.0040; // Also known as Idocrase
+#declare Vesuvianite_Birefringence_2 = 0.0060; // Also known as Idocrase
 #declare Vicanite_Ce_Birefringence_1 = 0.0350;
 #declare Vishnevite_Birefringence_1 = 0.0020;
 #declare Vishnevite_Birefringence_2 = 0.0040;
