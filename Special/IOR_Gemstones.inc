@@ -116,7 +116,7 @@ This is an extract from the NewIOR-files containing the IOR-values for the gemst
 #declare Beryl_Birefringence_1 = 0.0040;
 #declare Beryl_Birefringence_2 = 0.0070;
 
-CORDIERITE
+// CORDIERITE
 // Variety: IOLITE
 #declare Cordierite_IOR_a_1 = 1.527;
 #declare Cordierite_IOR_a_2 = 1.56;
@@ -137,7 +137,7 @@ CORDIERITE
 #declare Diopside_Birefringence_1 = 0.0290;
 #declare Diopside_Birefringence_2 = 0.0300;
 
-EUCLASE
+// EUCLASE
 #declare Euclase_IOR_a_1 = 1.652;
 #declare Euclase_IOR_b_1 = 1.655;
 #declare Euclase_IOR_g_1 = 1.671;
@@ -165,7 +165,7 @@ EUCLASE
 // SPESSARTINE
 #declare Spessartine_IOR_n_1 = 1.8;
 
-UVAROVITE
+// UVAROVITE
 #declare Uvarovite_IOR_n_1 = 1.86;
 
 // JADE (a variety of two minerals: Jadeite and Nephrite (is a variety of Actinolite)
@@ -206,7 +206,7 @@ UVAROVITE
 #declare Olivine_IOR_g_2 = 1.69;
 #declare Olivine_Birefringence_1 = 0.0400;
 
-QUARTZ
+// QUARTZ
 // Variety: AMETHYST
 // Variety: CITRINE
 // Variety: ROCK CRYSTAL
@@ -226,7 +226,7 @@ QUARTZ
 #declare Scapolite_Birefringence_1 = 0.0120;
 #declare Scapolite_Birefringence_2 = 0.0360;
 
-SPODUMENE
+// SPODUMENE
 // Variety: KUNZITE
 // Variety: HIDDENITE
 #declare Spodumene_IOR_a_1 = 1.648;
