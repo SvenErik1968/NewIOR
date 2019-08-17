@@ -35,7 +35,7 @@
 #declare Nitrous_Oxide_Gas_IOR = 1.000516;
 #declare Oxygen_Gas_IOR = 1.000271;
 #declare Pentane_Gas_IOR = 1.000686;
-#declare Perfluoro_n_butane_IOR = 1.0014:; // C4F10 => https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
+#declare Perfluoro_n_butane_IOR = 1.0014; // C4F10 => https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
 #declare Sulphur_Dioxide_Gas_IOR = 1.000686;
 #declare Water_Vapor_IOR = 1.000261;
 
