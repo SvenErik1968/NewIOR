@@ -55,17 +55,23 @@ an issue here on GitHub.
 *********************************************************************************/
 
     // Include the Birefringence file?
-    #declare Birefringence = false;
+    #declare Use_Birefringence = false;
+
+    // Include the Special files?
+    #declare Use_Specials = false;
 
     #include "IOR_Biaxial.inc"
     #include "IOR_Dispersion.inc"
     #include "IOR_Gases.inc"
     #include "IOR_Isotropic.inc"
     #include "IOR_Liquids.inc"
-    #include "IOR_Misc.inc"
     #include "IOR_Uniaxial.inc"
-    #ifdef(Birefringence)
+    #ifdef(Use_Birefringence)
         #include "IOR_Birefringence.inc"
+    #end
+    #ifdef(Use_Specials)
+        #include ".\Special\IOR_Gemstones.inc"
+        #include ".\Special\Gem_Cuts.inc"
     #end
 
     #version NewIOR_Inc_Temp;
