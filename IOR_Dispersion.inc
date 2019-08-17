@@ -13,8 +13,11 @@
 #declare Beryl_Dispersion = 0.014 + Dispersion_Base;
 #declare Beryllonite_Dispersion = 0.010 + Dispersion_Base;
 #declare Cassiterite_Dispersion = 0.071 + Dispersion_Base;
+#declare Cerussite_Dispersion = 0.055 + Dispersion_Base;
 #declare Chrysoberyl_Dispersion = 0.015 + Dispersion_Base;
 #declare Corundum_Dispersion = 0.018 + Dispersion_Base;
+#declare Cubic_Zirconia_a_Dispersion = 0.058 + Dispersion_Base; // Dispersion range 0.058-0.066 => https://en.wikipedia.org/wiki/Cubic_zirconia
+#declare Cubic_Zirconia_b_Dispersion = 0.066 + Dispersion_Base; // Dispersion range 0.058-0.066 => https://en.wikipedia.org/wiki/Cubic_zirconia
 #declare Danburite_Dispersion = 0.016 + Dispersion_Base;
 #declare Datolite_Dispersion = 0.016 + Dispersion_Base;
 #declare Diamond_Dispersion = 0.044 + Dispersion_Base;
@@ -34,6 +37,7 @@
 #declare Quartz_Dispersion = 0.013 + Dispersion_Base;
 #declare Rhodolite_Dispersion = 0.026 + Dispersion_Base;
 #declare Rutile_Synthetic_Dispersion = 0.330 + Dispersion_Base;
+#declare Rutile_Dispersion = 0.28 + Dispersion_Base;
 #declare Scapolite_Dispersion = 0.017 + Dispersion_Base;
 #declare Silica_glass_Dispersion = 0.010 + Dispersion_Base;
 #declare Sillimanite_Dispersion = 0.015 + Dispersion_Base;
