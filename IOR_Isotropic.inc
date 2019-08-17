@@ -71,7 +71,7 @@
 #declare Corrective_lens_Nikon_5_Plastic_NL5_IOR = 1.74; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_PhotoGray_Extra_IOR = 1.523; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Polycarbonate_IOR = 1.586; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_PPG_Trivex_(Average)_IOR = 1.53; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_PPG_Trivex_Average_IOR = 1.53; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_SOLA_Finalite_IOR = 1.60; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_SOLA_Spectralite_IOR = 1.54; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Tokai_IOR = 1.76; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
