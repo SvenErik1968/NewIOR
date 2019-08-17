@@ -5,8 +5,8 @@
 /////////////////////////////////////////////////
 //        ISOTROPIC MINERALS                   //
 /////////////////////////////////////////////////
-#declare Acrylic_IOR_1 = 1.49;\\ Acrylic, lucite, plexiglas
-#declare Acrylic_IOR_2 = 1.57;\\ Acrylic, lucite, plexiglas
+#declare Acrylic_IOR_1 = 1.49; // Acrylic, lucite, plexiglas
+#declare Acrylic_IOR_2 = 1.57; // Acrylic, lucite, plexiglas
 #declare Aeschynite_Ce_IOR_n_1 = 2.26;
 #declare Aeschynite_Nd_IOR_n_1 = 2.2;
 #declare Aeschynite_Nd_IOR_n_2 = 2.4;
@@ -16,7 +16,7 @@
 #declare Allophane_IOR_n_2 = 1.496;
 #declare Almandine_IOR_n_1 = 1.83;
 #declare Alumopharmacosiderite_IOR_n_1 = 1.565;
-#declare Amber_IOR = 1.546;\\ => https://physics.info/refraction/
+#declare Amber_IOR = 1.546; // => https://physics.info/refraction/
 #declare Amber_IOR_n_1 = 1.53;
 #declare Amber_IOR_n_2 = 1.54;
 #declare Analcime_IOR_n_1 = 1.479;
@@ -28,7 +28,7 @@
 #declare Arsenolite_IOR_n_1 = 1.755;
 #declare Asselbornite_IOR_n_1 = 1.9;
 #declare Bariopyrochlore_IOR_n_1 = 2.85;
-#declare Barium_Fluoride_IOR = 1.455;\\ Barium fluoride (BaF2) is a chemical compound of barium and fluorine and is a salt. It is a solid which can be a transparent crystal. It occurs in nature as the mineral frankdicksonite.
+#declare Barium_Fluoride_IOR = 1.455; // Barium fluoride (BaF2) is a chemical compound of barium and fluorine and is a salt. It is a solid which can be a transparent crystal. It occurs in nature as the mineral frankdicksonite.
 #declare Berzeliite_IOR_n_1 = 1.71;
 #declare Betafite_IOR_n_1 = 1.92;
 #declare Bicchulite_IOR_n_1 = 1.625;
@@ -44,7 +44,7 @@
 #declare Bunsenite_IOR_n_1 = 2.23;
 #declare Cadwaladerite_IOR_n_1 = 1.513;
 #declare Calciouranoite_IOR_n_1 = 1.726;
-#declare Calcium_Fluoride_IOR = 1.4338;\\ Calcium fluoride is the inorganic compound of the elements calcium and fluorine with the formula CaF2. It is a white insoluble solid. It occurs as the mineral fluorite (also called fluorspar), which is often deeply coloured owing to impurities.
+#declare Calcium_Fluoride_IOR = 1.4338; // Calcium fluoride is the inorganic compound of the elements calcium and fluorine with the formula CaF2. It is a white insoluble solid. It occurs as the mineral fluorite (also called fluorspar), which is often deeply coloured owing to impurities.
 #declare Calderite_IOR_n_1 = 1.872;
 #declare Carobbiite_IOR_n_1 = 1.362;
 #declare Chlorargyrite_IOR_n_1 = 2.07;
@@ -52,35 +52,35 @@
 #declare Chromite_IOR_n_1 = 2.08;
 #declare Chukhrovite_Ce_IOR_n_1 = 1.443;
 #declare Chukhrovite_Y_IOR_n_1 = 1.44;
-#declare Corrective_lens_1.6_Glass_IOR = 1.604;\\ Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_1.7_Glass_IOR = 1.706;\\ Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_1.8_Glass_IOR = 1.800;\\ Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_1.9_Glass_IOR = 1.893;\\ Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_CR_39_Hard_Resin_IOR = 1.49;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Crown_Glass_IOR = 1.525;\\ Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Essilor_Ormix_IOR = 1.6;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Hoya_EYRY_IOR = 1.70;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_10_1.67_Plastic_IOR = 1.67;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_174_1.74_Plastic_IOR = 1.74;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_20_1.6_Plastic_IOR = 1.60;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_6_1.6_Plastic_IOR = 1.6;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_7_1.665_Plastic_IOR = 1.665;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_7_1.67_Plastic_IOR = 1.67;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_8_1.6_Plastic_IOR = 1.6;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Nikon_4_Plastic_NL4_IOR = 1.67;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Nikon_5_Plastic_NL5_IOR = 1.74;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_PhotoGray_Extra_IOR = 1.523;\\ Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Polycarbonate_IOR = 1.586;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_PPG_Trivex_(Average)_IOR = 1.53;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_SOLA_Finalite_IOR = 1.60;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_SOLA_Spectralite_IOR = 1.54;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_Tokai_IOR = 1.76;\\ Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1.6_Glass_IOR = 1.604; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1.7_Glass_IOR = 1.706; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1.8_Glass_IOR = 1.800; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1.9_Glass_IOR = 1.893; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_CR_39_Hard_Resin_IOR = 1.49; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Crown_Glass_IOR = 1.525; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Essilor_Ormix_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Hoya_EYRY_IOR = 1.70; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_10_1.67_Plastic_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_174_1.74_Plastic_IOR = 1.74; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_20_1.6_Plastic_IOR = 1.60; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_6_1.6_Plastic_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_7_1.665_Plastic_IOR = 1.665; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_7_1.67_Plastic_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_8_1.6_Plastic_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Nikon_4_Plastic_NL4_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Nikon_5_Plastic_NL5_IOR = 1.74; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_PhotoGray_Extra_IOR = 1.523; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Polycarbonate_IOR = 1.586; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_PPG_Trivex_(Average)_IOR = 1.53; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_SOLA_Finalite_IOR = 1.60; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_SOLA_Spectralite_IOR = 1.54; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_Tokai_IOR = 1.76; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Cristobalite_IOR_n_1 = 1.485;
 #declare Cristobalite_IOR_n_2 = 1.487;
 #declare Cryolithionite_IOR_n_1 = 1.34;
 #declare Cryptohalite_IOR_n_1 = 1.369;
-#declare Cubic_Zirconia_a_IOR = 2.150;\\ Range 2.150-2.182
-#declare Cubic_Zirconia_b_IOR = 2.182;\\ Range 2.150-2.182
+#declare Cubic_Zirconia_a_IOR = 2.150; // Range 2.150-2.182
+#declare Cubic_Zirconia_b_IOR = 2.182; // Range 2.150-2.182
 #declare Cuprite_IOR = 2.849;
 #declare Danalite_IOR_n_1 = 1.753;
 #declare Danalite_IOR_n_2 = 1.771;
@@ -116,7 +116,7 @@
 #declare Fluorite_IOR_n_2 = 1.448;
 #declare Formanite_Y_IOR_n_1 = 2.05;
 #declare Formanite_Y_IOR_n_2 = 2.19;
-#declare Frankdicksonite_IOR = 1.475;\\ Barium fluoride (BaF2) is a chemical compound of barium and fluorine and is a salt. It is a solid which can be a transparent crystal. It occurs in nature as the mineral frankdicksonite.
+#declare Frankdicksonite_IOR = 1.475; // Barium fluoride (BaF2) is a chemical compound of barium and fluorine and is a salt. It is a solid which can be a transparent crystal. It occurs in nature as the mineral frankdicksonite.
 #declare Frankdicksonite_IOR_n_1 = 1.475;
 #declare Gadolinite_Ce_IOR_n_1 = 1.78;
 #declare Gahnite_IOR_n_1 = 1.82;
@@ -132,9 +132,9 @@
 #declare Griphite_IOR_n_2 = 1.66;
 #declare Grossular_IOR_n_1 = 1.734;
 #declare Grossular_IOR_n_2 = 1.75;
-#declare Hackmanite_IOR_n_1 = 1.483;\\ A variety of Sodalite
-#declare Hackmanite_IOR_n_2 = 1.487;\\ A variety of Sodalite
-#declare Halite_IOR_n_1 = 1.544;\\ NaCl, tablesalt or rock salt
+#declare Hackmanite_IOR_n_1 = 1.483; // A variety of Sodalite
+#declare Hackmanite_IOR_n_2 = 1.487; // A variety of Sodalite
+#declare Halite_IOR_n_1 = 1.544; // NaCl, tablesalt or rock salt
 #declare Hauyne_IOR_n_1 = 1.4961;
 #declare Helvite_IOR_n_1 = 1.728;
 #declare Helvite_IOR_n_2 = 1.747;
@@ -168,7 +168,7 @@
 #declare Leucite_IOR_n_1 = 1.508;
 #declare Leucite_IOR_n_2 = 1.511;
 #declare Lime_IOR_n_1 = 1.838;
-#declare Lithium_Fluoride_IOR = 1.3915;\\ LiF
+#declare Lithium_Fluoride_IOR = 1.3915; // LiF
 #declare Lonecreekite_IOR_n_1 = 1.483;
 #declare Magnussonite_IOR_n_1 = 1.98;
 #declare Majorite_IOR_n_1 = 1.8;
@@ -228,9 +228,9 @@
 #declare Polycrase_Y_IOR_n_1 = 2.248;
 #declare Polymignite_IOR_n_1 = 2.215;
 #declare Potassium_alum_IOR_n_1 = 1.4562;
-#declare Potassium_Bromide_IOR = 1.559;\\ KBr
-#declare Potassium_di_H_orthophosphate_IOR = 1.500;\\ KH2PO4
-#declare Potassium_Fluoride_IOR = 1.360;\\ KF, occurs naturally as the rare mineral Carobbiite
+#declare Potassium_Bromide_IOR = 1.559; // KBr
+#declare Potassium_di_H_orthophosphate_IOR = 1.500; // KH2PO4
+#declare Potassium_Fluoride_IOR = 1.360; // KF, occurs naturally as the rare mineral Carobbiite
 #declare Pyrochlore_IOR_n_1 = 1.9;
 #declare Pyrochlore_IOR_n_2 = 2.2;
 #declare Pyrope_IOR_n_1 = 1.73;
@@ -256,13 +256,13 @@
 #declare Sodalite_IOR_n_1 = 1.478;
 #declare Sodalite_IOR_n_2 = 1.488;
 #declare Sodium_alum_IOR_n_1 = 1.4388;
-#declare Sodium_Bromide_IOR = 1.6428;\\ Sodium bromide is an inorganic compound with the formula NaBr. It is a high-melting white, crystalline solid that resembles sodium chloride.
+#declare Sodium_Bromide_IOR = 1.6428; // Sodium bromide is an inorganic compound with the formula NaBr. It is a high-melting white, crystalline solid that resembles sodium chloride.
 #declare Sodium_pharmacosiderite_IOR_n_1 = 1.705;
 #declare Sohngeite_IOR_n_1 = 1.736;
 #declare Spessartine_IOR_n_1 = 1.789;
 #declare Spessartine_IOR_n_2 = 1.820;
-#declare Sphalerite_IOR_n_1 = 2.369;\\ Sphalerite, also known as blende or zinc blende, is the major ore of zinc
-#declare Sphalerite_IOR_n_2 = 2.43;\\ Sphalerite, also known as blende or zinc blende, is the major ore of zinc
+#declare Sphalerite_IOR_n_1 = 2.369; // Sphalerite, also known as blende or zinc blende, is the major ore of zinc
+#declare Sphalerite_IOR_n_2 = 2.43; // Sphalerite, also known as blende or zinc blende, is the major ore of zinc
 #declare Spinel_IOR_n_1 = 1.72;
 #declare Spinel_IOR_n_2 = 1.8;
 #declare Stannomicrolite_IOR_n_1 = 2.08;
@@ -271,19 +271,19 @@
 #declare Stibiconite_IOR_n_2 = 1.97;
 #declare Stibiomicrolite_IOR_n_1 = 2;
 #declare Strontiopyrochlore_IOR_n_1 = 2.08;
-#declare Strontium_Fluoride_IOR = 1.438;\\ Strontium fluoride, SrF2, also called strontium difluoride and strontium(II) fluoride, is a fluoride of strontium. It is a stable brittle white crystalline solid. It appears as the mineral strontiofluorite.
-#declare Strontium_Titanate_IOR = 2.409;\\ An artificial gemstone that has been used as a diamond simulant
+#declare Strontium_Fluoride_IOR = 1.438; // Strontium fluoride, SrF2, also called strontium difluoride and strontium(II) fluoride, is a fluoride of strontium. It is a stable brittle white crystalline solid. It appears as the mineral strontiofluorite.
+#declare Strontium_Titanate_IOR = 2.409; // An artificial gemstone that has been used as a diamond simulant
 #declare Sulphohalite_IOR_n_1 = 1.455;
-#declare Sylvite_IOR = 1.4903;\\ (KCl) colorless
+#declare Sylvite_IOR = 1.4903; // (KCl) colorless
 #declare Tazheranite_IOR_n_1 = 2.35;
 #declare Thorogummite_IOR_n_1 = 1.54;
 #declare Thorogummite_IOR_n_2 = 1.64;
 #declare Thorosteenstrupine_IOR_n_1 = 1.63;
 #declare Thorosteenstrupine_IOR_n_2 = 1.66;
 #declare Tombarthite_Y_IOR_n_1 = 1.639;
-#declare Tooth_structure_Cementum_IOR = 1.582;\\ => https://www.ncbi.nlm.nih.gov/pubmed/19566303
-#declare Tooth_structure_Dentin_IOR = 1.540;\\ => https://www.ncbi.nlm.nih.gov/pubmed/19566303
-#declare Tooth_structure_Enamel_IOR = 1.631;\\ => https://www.ncbi.nlm.nih.gov/pubmed/19566303
+#declare Tooth_structure_Cementum_IOR = 1.582; // => https://www.ncbi.nlm.nih.gov/pubmed/19566303
+#declare Tooth_structure_Dentin_IOR = 1.540; // => https://www.ncbi.nlm.nih.gov/pubmed/19566303
+#declare Tooth_structure_Enamel_IOR = 1.631; // => https://www.ncbi.nlm.nih.gov/pubmed/19566303
 #declare Transparent_Thermoplastic_Fluoropolymers_IOR_1 = 1.34;
 #declare Transparent_Thermoplastic_Fluoropolymers_IOR_2 = 1.4;
 #declare Transparent_Thermoplastic_PA_IOR_1 = 1.53;
@@ -324,7 +324,7 @@
 #declare Vismirnovite_IOR_n_1 = 1.735;
 #declare Voltaite_IOR_n_1 = 1.602;
 #declare Wadalite_IOR_n_1 = 1.708;
-#declare Water_Ice_IOR = 1.309;\\ => https://physics.info/refraction/
+#declare Water_Ice_IOR = 1.309; // => https://physics.info/refraction/
 #declare Wickmanite_IOR_n_1 = 1.705;
 #declare Winstanleyite_IOR_n_1 = 2.34;
 #declare Yafsoanite_IOR_n_1 = 1.8;
@@ -337,7 +337,7 @@
 #declare Yttrotantalite_Y_IOR_n_1 = 2.15;
 #declare Zaratite_IOR_n_1 = 1.56;
 #declare Zaratite_IOR_n_2 = 1.61;
-#declare Zinc_sulfide_IOR = 2.3677;\\ ZnS. Common name is zinc blende. Ionic crystal having a beautiful redish yellow color. This is the main form of zinc found in nature, where it mainly occurs as the mineral sphalerite. 
+#declare Zinc_sulfide_IOR = 2.3677; // ZnS. Common name is zinc blende. Ionic crystal having a beautiful redish yellow color. This is the main form of zinc found in nature, where it mainly occurs as the mineral sphalerite. 
 #declare Zincovoltaite_IOR_n_1 = 1.605;
 #declare Zunyite_IOR_n_1 = 1.6;
 
