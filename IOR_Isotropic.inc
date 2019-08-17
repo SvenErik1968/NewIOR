@@ -52,21 +52,21 @@
 #declare Chromite_IOR_n_1 = 2.08;
 #declare Chukhrovite_Ce_IOR_n_1 = 1.443;
 #declare Chukhrovite_Y_IOR_n_1 = 1.44;
-#declare Corrective_lens_1.6_Glass_IOR = 1.604; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_1.7_Glass_IOR = 1.706; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_1.8_Glass_IOR = 1.800; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_1.9_Glass_IOR = 1.893; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1_6_Glass_IOR = 1.604; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1_7_Glass_IOR = 1.706; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1_8_Glass_IOR = 1.800; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_1_9_Glass_IOR = 1.893; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_CR_39_Hard_Resin_IOR = 1.49; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Crown_Glass_IOR = 1.525; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Essilor_Ormix_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Hoya_EYRY_IOR = 1.70; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_10_1.67_Plastic_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_174_1.74_Plastic_IOR = 1.74; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_20_1.6_Plastic_IOR = 1.60; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_6_1.6_Plastic_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_7_1.665_Plastic_IOR = 1.665; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_7_1.67_Plastic_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
-#declare Corrective_lens_MR_8_1.6_Plastic_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_10_1_67_Plastic_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_174_1_74_Plastic_IOR = 1.74; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_20_1_6_Plastic_IOR = 1.60; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_6_1_6_Plastic_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_7_1_665_Plastic_IOR = 1.665; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_7_1_67_Plastic_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
+#declare Corrective_lens_MR_8_1_6_Plastic_IOR = 1.6; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Nikon_4_Plastic_NL4_IOR = 1.67; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_Nikon_5_Plastic_NL5_IOR = 1.74; // Ophthalmic materials, plastics => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
 #declare Corrective_lens_PhotoGray_Extra_IOR = 1.523; // Ophthalmic materials, glass => https://en.wikipedia.org/wiki/Corrective_lens#Ophthalmic_material_property_tables
