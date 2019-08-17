@@ -1,6 +1,6 @@
 # NewIOR
 ## Additional index of refraction values for use with POV-Ray - The Persistence of Vision Raytracer™.
-This is initially based on the v4.10b that I released back in 2001-03-09, my use of POV-Ray have been rather infrequent since then, but I have now started to "play around" with it a little bit again.
+This is initially based on the v4.10b that I released back in 2001-03-09 (The first version was released back in 1994!). My use of POV-Ray have been rather infrequent since then, but I have now started to "play around" with it a little bit again.
 
 The latest release is still available on a free webhosting site, but I don't have the password to it anymore. I also don't have access to the email address the site was registered with… ;-)
 
@@ -10,24 +10,26 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - Some have been forgotten due to malfunctions in wetware and hardware…
 - Mikhail Elashkin  from the Independent Group "Developing Games Software", Russia, Moscow
 - Sigmund Kyrre Aas (was a student at NTNU, Trondheim, Norway)
-- Many new values where found at [Amethyst Galleries' Mineral Gallery](http://www.galleries.com). If you want to know more about crystals, gemstones and other minerals then that is a fine startpoint. This site is a service by a company called Amethyst Galleries, Inc., and I am not in any way connected them, or get any money from them. It's just that it is a very fine resource of information on crystals and other minerals.
+- Many values where found at [Amethyst Galleries' Mineral Gallery](http://www.galleries.com). If you want to know more about crystals, gemstones and other minerals then that is a fine startpoint. This site is a service by a company called Amethyst Galleries, Inc., and I am not in any way connected them, or get any money from them. It's just that it is a very fine resource of information on crystals and other minerals.
 - [Mineralogy Database](http://www.webmineral.com) have a lot of info and images, plus a large link-section to other related sites.
 - [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia
+- [Gemdat.org](https://www.gemdat.org) - the gemstone and gemology information website
+- [Mindat.org](https://www.mindat.org/) - Sister site to Gemdat, according to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
-- https://www.engineeringtoolbox.com/refractive-index-d_1264.html
-- https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10
-- https://physics.info/refraction/
+- [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html)
+- [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10)
+- [The Physics Hypertextbook - Refraction](https://physics.info/refraction/)
 
 
 ## Birefringence
-Birefringence is the difference between the highest and lowest IOR in a mineral. Most minerals have a very low birefringence, notable exceptions is the carbonates. The birefringence causes the ray of light that enters a mineral to split in two rays, one slow and one fast. When the two rays exits the crystal they are bent in two different angles. If you were to look through such a mineral (maybe calcite, it has one of the highest birefringence values), you would see two pictures. This is also called double refraction. I will include the birefringence values that I have, which is most of the uniaxial and biaxial minerals. Hopefully someone will create a patch so it can be of use someday. I think I will separate out the values into a separate file that will not be loaded by default.
+Birefringence is the difference between the highest and lowest IOR in a mineral. Most minerals have a very low birefringence, notable exceptions is the carbonates. The birefringence causes the ray of light that enters a mineral to split in two rays, one slow and one fast. When the two rays exits the crystal they are bent in two different angles. If you were to look through such a mineral (maybe calcite, it has one of the highest birefringence values), you would see two pictures. This is also called double refraction. I will include the birefringence values that I have, which is for most of the uniaxial and biaxial minerals. Hopefully someone will create a patch so it can be of use someday. The birefringence values have been separated into its own file, [*IOR_Birefringence.inc*](./IOR_Birefringence.inc) that will not be loaded by default. To include it, change the value of the flag Birefringence in the [*NewIOR.inc*](./NewIOR.inc) file.
 
 ## Dispersion
 Dispersion is a little more complex than birefringence. Birefringence is affecting all wavelengths of light equally. But refraction is affected by the wavelength too. Blue light is bent more than green light, which is bent more than red light. When the dispersion is low, the white light exits the crystal almost unaffected and we see it as white light. But if the dispersion is high, the different colours are bent in different angles. This is the effect that causes the fire or flashes of colours in cut gemstones like diamond and zircon. This is also the effect that causes the light to split in a glass prism or a drop of water, giving us the rainbow.
 
 ## Cleavage
-The crystals have been separated into 3 files based on their cleavage structure. The subject is fairly complex, and I have not figured it all out yet. So I will not have a long explanation on the subject here. If you want to read up on it, then take a look at some of the websites that I have listed above, particularly the links section of the [Mineralogy Database](http://www.webmineral.com/).
+The crystals have been separated into 3 files based on their cleavage structure. The subject is fairly complex, and I have not figured it all out yet. So I will not have a long explanation on the subject here. If you want to read up on it, then take a look at some of the websites that I have listed above.
 
 ## Isotropic minerals
 Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file.
