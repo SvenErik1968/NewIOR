@@ -5,7 +5,7 @@
 //                 DISPERSION                  //
 /////////////////////////////////////////////////
 
-#declare Dispersion_Base = 1.000; // MegaPOV uses 1 to mean no dispersion.
+#declare Dispersion_Base = 1.000; // POV-Ray uses 1 to mean no dispersion.
 
 Almandite_Dispersion = 0.024 + Dispersion_Base;
 Andradite_Dispersion = 0.057 + Dispersion_Base;
@@ -26,6 +26,7 @@ Grossularite_Dispersion = 0.028 + Dispersion_Base;
 Idocrase_Dispersion = 0.019 + Dispersion_Base;
 Kornerupine_Dispersion = 0.019 + Dispersion_Base;
 Kyanite_Dispersion = 0.011 + Dispersion_Base;
+Lithium_Niobate_Dispersion = 0.13 + Dispersion_Base; // Brand name Linobate
 Orthoclase_Dispersion = 0.012 + Dispersion_Base;
 Peridot_Dispersion = 0.020 + Dispersion_Base;
 Phenakite_Dispersion = 0.015 + Dispersion_Base;
