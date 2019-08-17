@@ -157,6 +157,8 @@ the IOR_Biaxial.inc file.
 
 *********************************************************************************/
 
+    #declare Birefringence = false;
+
     #include "IOR_Biaxial.inc"
     #include "IOR_Dispersion.inc"
     #include "IOR_Gases.inc"
@@ -164,6 +166,9 @@ the IOR_Biaxial.inc file.
     #include "IOR_Liquids.inc"
     #include "IOR_Misc.inc"
     #include "IOR_Uniaxial.inc"
+    #ifdef(Birefringence)
+        #include "IOR_Birefringence.inc"
+    #end
 
     #version NewIOR_Inc_Temp;
 #end
