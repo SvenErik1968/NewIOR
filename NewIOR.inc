@@ -6,7 +6,11 @@
     #ifdef(View_POV_Include_Stack)
         #debug "including NewIOR.inc\n"
     #end
-
+    
+    // Include ior.inc if it has not been loaded
+    #ifndef(Ior_Inc_Temp)
+        #include "ior.inc"
+    #end
 /************************************************************************
 /////////////////////////////////////////////////////////////////////////
 //                                                                     //
