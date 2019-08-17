@@ -157,6 +157,7 @@ the IOR_Biaxial.inc file.
 
 *********************************************************************************/
 
+    // Include the Birefringence file?
     #declare Birefringence = false;
 
     #include "IOR_Biaxial.inc"
