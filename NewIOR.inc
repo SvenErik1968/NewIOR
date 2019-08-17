@@ -66,10 +66,10 @@ an issue here on GitHub.
     #include "IOR_Isotropic.inc"
     #include "IOR_Liquids.inc"
     #include "IOR_Uniaxial.inc"
-    #ifdef(Use_Birefringence)
+    #if (Use_Birefringence)
         #include "IOR_Birefringence.inc"
     #end
-    #ifdef(Use_Specials)
+    #if (Use_Specials)
         #include ".\Special\IOR_Gemstones.inc"
         #include ".\Special\Gem_Cuts.inc"
     #end
