@@ -587,8 +587,8 @@
 #declare Godovikovite_IOR_w_1 = 1.572;
 #declare Gordaite_IOR_e_1 = 1.5382;
 #declare Gordaite_IOR_w_1 = 1.5607;
-#declare Goshenite_IOR_e_1 = 1.568;\\ Range 1.568-1.602
-#declare Goshenite_IOR_w_1 = 1.564;\\ Range 1.564-1.595
+#declare Goshenite_IOR_e_1 = 1.568; // Range 1.568-1.602
+#declare Goshenite_IOR_w_1 = 1.564; // Range 1.564-1.595
 #declare Goudeyite_IOR_e_1 = 1.765;
 #declare Goudeyite_IOR_w_1 = 1.704;
 #declare Goyazite_IOR_e_1 = 1.63;
@@ -621,8 +621,8 @@
 #declare Hedyphane_IOR_w_1 = 1.948;
 #declare Heinrichite_IOR_e_1 = 1.573;
 #declare Heinrichite_IOR_w_1 = 1.605;
-#declare Hematite_IOR_e_1 = 3.220;\\ Fe2O3 => https://physics.info/refraction/
-#declare Hematite_IOR_w_1 = 2.940;\\ Fe2O3 => https://physics.info/refraction/
+#declare Hematite_IOR_e_1 = 3.220; // Fe2O3 => https://physics.info/refraction/
+#declare Hematite_IOR_w_1 = 2.940; // Fe2O3 => https://physics.info/refraction/
 #declare Hematolite_IOR_e_1 = 1.714;
 #declare Hematolite_IOR_w_1 = 1.733;
 #declare Henritermierite_IOR_e_1 = 1.8;
@@ -825,8 +825,8 @@
 #declare Liottite_IOR_w_1 = 1.53;
 #declare Litharge_IOR_e_1 = 2.535;
 #declare Litharge_IOR_w_1 = 2.665;
-#declare Lithium_Niobate_IOR_e_1 = 2.21;\\ LiNbO3, Brand name Linobate
-#declare Lithium_Niobate_IOR_o_1 = 2.30;\\ LiNbO3, Brand name Linobate
+#declare Lithium_Niobate_IOR_e_1 = 2.21; // LiNbO3, Brand name Linobate
+#declare Lithium_Niobate_IOR_o_1 = 2.30; // LiNbO3, Brand name Linobate
 #declare Lonsdaleite_IOR_a_1 = 2.404;
 #declare Lonsdaleite_IOR_b_1 = 2.404;
 #declare Lorettoite_IOR_e_1 = 2.33;
@@ -845,7 +845,7 @@
 #declare Mackayite_IOR_w_1 = 2.19;
 #declare Magadiite_IOR_e_1 = 1.47;
 #declare Magadiite_IOR_w_1 = 1.48;
-#declare Magnesite_IOR_e_1 = 1.700;\\ MgO. Ionic crystal.
+#declare Magnesite_IOR_e_1 = 1.700; // MgO. Ionic crystal.
 #declare Magnesite_IOR_w_1 = 1.508;
 #declare Magnesite_IOR_w_2 = 1.51;
 #declare Mahnertite_IOR_e_1 = 1.635;
@@ -1209,8 +1209,8 @@
 #declare Schulenbergite_IOR_w_1 = 1.64;
 #declare Segnitite_IOR_e_1 = 1.955;
 #declare Segnitite_IOR_w_1 = 1.975;
-#declare Sellaite_IOR_e_1 = 1.390;\\ Sellaite is a magnesium fluoride mineral with the formula MgF2
-#declare Sellaite_IOR_w_1 = 1.378;\\ Sellaite is a magnesium fluoride mineral with the formula MgF2
+#declare Sellaite_IOR_e_1 = 1.390; // Sellaite is a magnesium fluoride mineral with the formula MgF2
+#declare Sellaite_IOR_w_1 = 1.378; // Sellaite is a magnesium fluoride mineral with the formula MgF2
 #declare Selwynite_IOR_e_1 = 1.636;
 #declare Selwynite_IOR_w_1 = 1.624;
 #declare Sergeevite_IOR_b_1 = 1.581;
@@ -1385,10 +1385,10 @@
 #declare Vaterite_IOR_w_1 = 1.55;
 #declare Verplanckite_IOR_e_1 = 1.672;
 #declare Verplanckite_IOR_w_1 = 1.683;
-#declare Vesuvianite_IOR_e_1 = 1.700;\\ Also known as Idocrase
-#declare Vesuvianite_IOR_e_2 = 1.746;\\ Also known as Idocrase
-#declare Vesuvianite_IOR_w_1 = 1.703;\\ Also known as Idocrase
-#declare Vesuvianite_IOR_w_2 = 1.752;\\ Also known as Idocrase
+#declare Vesuvianite_IOR_e_1 = 1.700; // Also known as Idocrase
+#declare Vesuvianite_IOR_e_2 = 1.746; // Also known as Idocrase
+#declare Vesuvianite_IOR_w_1 = 1.703; // Also known as Idocrase
+#declare Vesuvianite_IOR_w_2 = 1.752; // Also known as Idocrase
 #declare Vicanite_Ce_IOR_e_1 = 1.722;
 #declare Vicanite_Ce_IOR_w_1 = 1.757;
 #declare Virgilite_IOR_w_1 = 1.52;
