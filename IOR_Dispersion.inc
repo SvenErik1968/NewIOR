@@ -1,13 +1,15 @@
 #ifdef(View_POV_Include_Stack)
     #debug "  - including IOR_Dispersion.inc\n"
 #end
+
 /////////////////////////////////////////////////
 //                 DISPERSION                  //
 /////////////////////////////////////////////////
 
-#declare Dispersion_Base = 1.000; // POV-Ray (and previously MegaPOV) uses 1 to mean no dispersion
+// POV-Ray (and previously MegaPOV) uses a value of 1 to mean no dispersion, while in optics it is 0 based
+#declare Dispersion_Base = 1.000;
 
-// BIAXIAL
+// BIAXIAL MINERALS
 #declare Angelsite_Dispersion = 0.044 + Dispersion_Base;
 #declare Beryllonite_Dispersion = 0.010 + Dispersion_Base;
 #declare Boracite_Dispersion = 0.024 + Dispersion_Base;
@@ -32,7 +34,7 @@
 #declare Titanite_Dispersion = 0.051 + Dispersion_Base;
 #declare Topaz_Dispersion = 0.014 + Dispersion_Base;
 
-// ISOTROPIC
+// ISOTROPIC MINERALS
 #declare Almandite_Dispersion_1 = 0.024 + Dispersion_Base;
 #declare Almandite_Dispersion_2 = 0.027 + Dispersion_Base;
 #declare Andradite_Dispersion = 0.057 + Dispersion_Base;
@@ -54,7 +56,7 @@
 #declare Spinel_Dispersion = 0.020 + Dispersion_Base;
 #declare Strontium_Titanate_Dispersion = 0.109 + Dispersion_Base;\\ An artificial gemstone that has been used as a diamond simulant
 
-// UNIAXIAL
+// UNIAXIAL MINERALS
 #declare Anatase_Dispersion = 0.213 + Dispersion_Base;
 #declare Benitoite_Dispersion_1 = 0.039 + Dispersion_Base;\\ Dispersion range 0.039-0.046 => https://www.gemdat.org/gem-624.html
 #declare Benitoite_Dispersion_2 = 0.046 + Dispersion_Base;
