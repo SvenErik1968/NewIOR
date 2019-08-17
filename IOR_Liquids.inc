@@ -5,10 +5,10 @@
 /////////////////////////////////////////////////
 //                   LIQUIDS                   //
 /////////////////////////////////////////////////
-#declare 1_1_2_Trichlorotrifluoroethane_IOR = 1.3557; // At 25 degrees Celsius
-#declare 1_2_4_Trichlorobenzene_IOR = 1.5717; // Solvent
-#declare 1_4_Dioxane_IOR = 1.4224; // Solvent
-#declare 2_Methoxyethanol_IOR = 1.4021; // Solvent
+#declare One_1_2_Trichlorotrifluoroethane_IOR = 1.3557; // At 25 degrees Celsius
+#declare One_2_4_Trichlorobenzene_IOR = 1.5717; // Solvent
+#declare One_4_Dioxane_IOR = 1.4224; // Solvent
+#declare Two_Methoxyethanol_IOR = 1.4021; // Solvent
 #declare Acetic_Acid_IOR = 1.37;
 #declare Acetone_IOR = 1.3586; // Solvent, C3H6O
 #declare Acetonitrile_IOR = 1.3441; // Solvent
