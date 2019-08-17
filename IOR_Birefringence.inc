@@ -1,11 +1,12 @@
 #ifdef(View_POV_Include_Stack)
     #debug "  - including IOR_Birefringence.inc\n"
 #end
+
 /////////////////////////////////////////////////
 //                BIREFRINGENCE                //
 /////////////////////////////////////////////////
 
-// BIAXIAL
+// BIAXIAL MINERALS
 #declare Actinolite_Birefringence_1 = 0.0250;
 #declare Actinolite_Birefringence_2 = 0.0270;
 #declare Acuminite_Birefringence_1 = 0.0117;
@@ -2100,7 +2101,7 @@
 #declare Zwieselite_Birefringence_1 = 0.0170;
 #declare Zykaite_Birefringence_1 = 0.0140;
 
-// UNIAXIAL
+// UNIAXIAL MINERALS
 #declare Abenakiite_Ce_Birefringence_1 = 0.0030;
 #declare Abernathyite_Birefringence_1 = 0.0270;
 #declare Abhurite_Birefringence_1 = 0.0500;
