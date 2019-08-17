@@ -95,12 +95,13 @@
 #declare Water_0C_IOR = 1.33346;\\ Liquid, 0°C => https://physics.info/refraction/
 #declare Water_100C_IOR = 1.31766;\\ Liquid, 100°C => https://physics.info/refraction/
 #declare Water_20C_IOR = 1.33283;\\ Liquid, 20°C => https://physics.info/refraction/
-#declare White_Spirit_Type_1_a_IOR = 1.41;\\ 1.41 - 1.44, same as Stoddard solvent in the US
-#declare White_Spirit_Type_1_b_IOR = 1.44;\\ 1.41 - 1.44, same as Stoddard solvent in the US
-#declare White_Spirit_Type_2_a_IOR = 1.41;\\ 1.41 - 1.44
-#declare White_Spirit_Type_2_b_IOR = 1.44;\\ 1.41 - 1.44
-#declare White_Spirit_Type_3_a_IOR = 1.41;\\ 1.41 - 1.44
-#declare White_Spirit_Type_3_b_IOR = 1.44;\\ 1.41 - 1.44
+#declare White_Spirit_Type_1_a_IOR = 1.41;\\ Range 1.41 - 1.44, same as Stoddard solvent in the US
+#declare White_Spirit_Type_1_b_IOR = 1.44;\\ Range 1.41 - 1.44, same as Stoddard solvent in the US
+#declare White_Spirit_Type_2_a_IOR = 1.41;\\ Range 1.41 - 1.44
+#declare White_Spirit_Type_2_b_IOR = 1.44;\\ Range 1.41 - 1.44
+#declare White_Spirit_Type_3_a_IOR = 1.41;\\ Range 1.41 - 1.44
+#declare White_Spirit_Type_3_b_IOR = 1.44;\\ Range 1.41 - 1.44
+
 
 #ifdef(View_POV_Include_Stack)
     #debug "    ...done!\n"
