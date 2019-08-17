@@ -10,12 +10,12 @@
 #declare 1_4_Dioxane_IOR = 1.4224;\\ Solvent
 #declare 2_Methoxyethanol_IOR = 1.4021;\\ Solvent
 #declare Acetic_Acid_IOR = 1.37;
-#declare Acetone_IOR = 1.3586;\\ Solvent
+#declare Acetone_IOR = 1.3586;\\ Solvent, C3H6O
 #declare Acetonitrile_IOR = 1.3441;\\ Solvent
 #declare Aniline_IOR = 1.586;
 #declare Asphalt_IOR = 1.635;\\ The hydro-carbon, bitumen, alse seen values 1.64 - 1.66
-#declare Benzene_20C_IOR = 1.5011;
-#declare Benzene_30C_IOR = 1.4949;
+#declare Benzene_20C_IOR = 1.5011; \\ C6H6
+#declare Benzene_30C_IOR = 1.4949; \\ C6H6
 #declare Benzyl_benzoate_IOR = 1.568;
 #declare Canada_balsam_IOR = 1.530;\\ Used as glue for optics.
 #declare Carbon_disulfide_IOR = 1.630;
@@ -54,6 +54,7 @@
 #declare Isopropyl_Alcohol_IOR = 1.3772;\\ Solvent
 #declare Isopropyl_Myristate_IOR = 1.4332;\\ Solvent
 #declare Liquid_CarbonDioxide_IOR = 1.20;
+#declare Mercury_IOR = 1.7442;\\ AKA Quicksilver, Hg => https://refractiveindex.info/?shelf=3d&book=liquids&page=mercury
 #declare Methanol_IOR = 1.3284;\\ Solvent
 #declare Methyl_Ethyl_Ketone_IOR = 1.3788;\\ Solvent
 #declare Methyl_Isoamyl_Ketone_IOR = 1.4070;\\ Solvent
