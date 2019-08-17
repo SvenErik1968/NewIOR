@@ -14,6 +14,8 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - [Mineralogy Database](http://www.webmineral.com) have a lot of info and images, plus a large link-section to other related sites.
 - [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia
+- [Gemdat.org](https://www.gemdat.org) - the gemstone and gemology information website
+- [mindat.org](https://www.mindat.org/) - Sister site to Gemdat, according to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
 - [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html)
 - [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10)
