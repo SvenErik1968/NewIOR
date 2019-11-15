@@ -13,7 +13,7 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - [Amethyst Galleries' Mineral Gallery](http://www.galleries.com/). If you want to know more about crystals, gemstones and other minerals then this is a fine startpoint.
 - [Mineralogy Database](http://www.webmineral.com/) have a lot of information and images, plus a large link-section to other related sites.
 - [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
-- [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia and many other pages
+- [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia and many other pages at Wikipedia
 - [Gemdat.org](https://www.gemdat.org/) - the gemstone and gemology information website
 - [Mindat.org](https://www.mindat.org/) - Sister site to Gemdat, according to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
@@ -35,7 +35,7 @@ Dispersion is a little more complex than birefringence. Birefringence is affecti
 The crystals have been separated into 3 files based on their cleavage structure. The subject is fairly complex, and I have not figured it all out yet. So I will not have a long explanation on the subject here. If you want to read up on it, then take a look at some of the websites that I have listed above.
 
 ## Isotropic minerals
-Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file.
+Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file. Other elements like various organic compounds are also included here.
 
 ## Uniaxial minerals
 Hexagonal, trigonal and tetragonal minerals have a different structure along their primary axes than they do in all other directions and for this reason they have two indices of refraction, one along the primary axis and one for every other direction. These minerals are called uniaxial minerals for their one unique direction. These minerals are listed in the [*IOR_Uniaxial.inc*](./IOR_Uniaxial.inc) file.
@@ -47,7 +47,7 @@ Orthorhombic, monoclinic and triclinic minerals have two planes of equal refract
 These minerals do not have an ordered structure like crystals. They include most types of glass, and minerals like amber, opal, tektites and obsidian. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file with the isometric minerals.
 
 ## Gasses & Liquids
-I have separated out the IOR-values for gasses and liquids into their own separate filer, [*IOR_Gases.inc*](./IOR_Gases.inc) and [*IOR_Liquids.inc*](./IOR_Liquids.inc)
+You will find the IOR-values for gasses and liquids in [*IOR_Gases.inc*](./IOR_Gases.inc) and [*IOR_Liquids.inc*](./IOR_Liquids.inc).
 
 ## Special files
 ### Gemstones IOR
