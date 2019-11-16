@@ -2,7 +2,7 @@
     // do nothing
 #else
     #declare NewIOR_Inc_Temp = version;
-    #version 3.7;
+    #version 3.8;
     #ifdef(View_POV_Include_Stack)
         #debug "including NewIOR.inc\n"
     #end
@@ -41,6 +41,11 @@
 // REVISION : 2019-08-17 Added some new values, did some clean-up,     //
 //                       separated out the birefringence values into   //
 //                       its own file.                                 //
+// REVISION : 2019-11-16 Added more values and cleaned up, removed     //
+//                       declarations for elements that are included   //
+//                       in the current version of ior.inc for v3.8 on //
+//                       Github. Included the dispersion values with   //
+//                       the elements instead of in a separate file.   //
 //                                                                     //
 /////////////////////////////////////////////////////////////////////////
 
@@ -65,7 +70,6 @@ an issue here on GitHub.
     #declare Use_Specials = false;
 
     #include "IOR_Biaxial.inc"
-    #include "IOR_Dispersion.inc"
     #include "IOR_Gases.inc"
     #include "IOR_Isotropic.inc"
     #include "IOR_Liquids.inc"
