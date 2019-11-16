@@ -10,19 +10,19 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - Some have been forgotten due to malfunctions in wetware and hardware…
 - Mikhail Elashkin  from the Independent Group "Developing Games Software", Russia, Moscow
 - Sigmund Kyrre Aas (was a student at NTNU, Trondheim, Norway)
-- [Amethyst Galleries' Mineral Gallery](http://www.galleries.com/). If you want to know more about crystals, gemstones and other minerals then this is a fine startpoint.
-- [Mineralogy Database](http://www.webmineral.com/) have a lot of information and images, plus a large link-section to other related sites.
-- [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
+- [Mineralogy Database](http://www.webmineral.com/) have a lot of information and images, plus a large link-section to other related sites. A large portion of the values in these files are from that site.
+- [The Mineral and Gemstone Kingdom](http://www.minerals.net/) - *The Mineral and Gemstone Kingdom is a free informational and educational guide to rocks, minerals, gemstones, and jewelry. This site has been providing detailed information and photos of hundreds of mineral and gemstone since 1997 and is one of the leading education resources on minerals and gemstones.*
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia and many other pages at Wikipedia
-- [Gemdat.org](https://www.gemdat.org/) - the gemstone and gemology information website
-- [Mindat.org](https://www.mindat.org/) - Sister site to Gemdat, according to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
+- [Mindat.org](https://www.mindat.org/) - According to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
+- [Gemdat.org](https://www.gemdat.org/) - Sister site to Mindat, the gemstone and gemology information website
+- [Amethyst Galleries' Mineral Gallery](http://www.galleries.com/). If you want to know more about crystals, gemstones and other minerals then this is a fine startpoint.
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
-- [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html)
-- [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10)
-- [The Physics Hypertextbook - Refraction](https://physics.info/refraction/)
+- [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html) - *Refractive Index for some common Liquids, Solids and Gases*
+- [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10) - The IOR value for Perfluoro-n-butane, used in the RICH1 detector at the LHCb experiment comes from here.
+- [The Physics Hypertextbook - Refraction](https://physics.info/refraction/) - *The Physics Hypertextbook - Refraction*
 - International Gem Society's list of [*Gemstones and Refraction Liquids*](https://www.gemsociety.org/article/gemstones-refraction-liquids/) and list of [*Common Household Liquids*](https://www.gemsociety.org/article/refractive-index-list-of-common-household-liquids/)
-- [RefractiveIndex.INFO](https://refractiveindex.info/)
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+- [RefractiveIndex.INFO](https://refractiveindex.info/)- *Refractive index database*
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - *U.S. National Library of Medicin PubChem - the world's largest collection of freely accessible chemical information.*
 - [List of solvents at the Polymer Analysis Laboratory at Louisiana State University](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm)
 
 ## Sources
