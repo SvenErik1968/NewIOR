@@ -26,7 +26,7 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - [List of solvents at the Polymer Analysis Laboratory at Louisiana State University](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm)
 
 ## Sources
-- For all the values, the source is refererenced in a comment after the IOR value like this [[1]]. The number is refering to a numbered link in the [*sources.md*](./sources.md) file.
+- For all the values, the source is refererenced in a comment after the IOR value like this [1]. The number is refering to a numbered link in the [*sources.md*](./sources.md) file.
 
 ## Birefringence
 Birefringence is the difference between the highest and lowest IOR in a mineral. Most minerals have a very low birefringence, notable exceptions is the carbonates. The birefringence causes the ray of light that enters a mineral to split in two rays, one slow and one fast. When the two rays exits the crystal they are bent in two different angles. If you were to look through such a mineral (maybe calcite, it has one of the highest birefringence values), you would see two pictures. This is also called double refraction. I will include the birefringence values that I have, which is for most of the uniaxial and biaxial minerals. Hopefully someone will create a patch so it can be of use someday. The birefringence values have been separated into its own file, [*IOR_Birefringence.inc*](./IOR_Birefringence.inc) that will not be loaded by default. To include it, change the value of the flag Birefringence in the [*NewIOR.inc*](./NewIOR.inc) file.
@@ -38,7 +38,7 @@ Dispersion is a little more complex than birefringence. Birefringence is affecti
 The crystals have been separated into 3 files based on their cleavage structure. The subject is fairly complex, and I have not figured it all out yet. So I will not have a long explanation on the subject here. If you want to read up on it, then take a look at some of the websites that I have listed above.
 
 ## Isotropic minerals
-Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file. Other elements like various organic compounds are also included here.
+Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file. Other elements like various organic or artificial compounds are also included here.
 
 ## Uniaxial minerals
 Hexagonal, trigonal and tetragonal minerals have a different structure along their primary axes than they do in all other directions and for this reason they have two indices of refraction, one along the primary axis and one for every other direction. These minerals are called uniaxial minerals for their one unique direction. These minerals are listed in the [*IOR_Uniaxial.inc*](./IOR_Uniaxial.inc) file.
