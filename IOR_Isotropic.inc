@@ -30,7 +30,7 @@
 #declare IOR_BK7_optical_glass_crown = 1.5168; // Source: [34]
 #declare IOR_Blakeite = 2.16; // Source: [3]
 #declare IOR_Boleite = 2.05; // Source: [3]
-#declare Disp_Boleite = 0.071;
+#declare Disp_Boleite = 0.071; // !! Source: [79], this source has it listed as a Uniaxial mineral, while the source [3] as Isometric
 #declare IOR_Bolivarite = 1.505; // Source: [3]
 #declare IOR_Brannerite = 2.265; // Source: [3]
 #declare IOR_Bromargyrite = 2.25; // Source: [3]
