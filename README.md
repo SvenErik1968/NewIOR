@@ -11,6 +11,7 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - Mikhail Elashkin  from the Independent Group "Developing Games Software", Russia, Moscow
 - Sigmund Kyrre Aas (was a student at NTNU, Trondheim, Norway)
 - [Mineralogy Database](http://www.webmineral.com/) have a lot of information and images, plus a large link-section to other related sites. A large portion of the values in these files are from that site.
+  - This site has a [page with links](http://www.webmineral.com/help/Forms.shtml) to pdf's for making paper models of crystal shapes, and a program for crystal shape editing called [KrystalShaper](http://www.jcrystal.com/products/krystalshaper/) that can be used for creating pdf's _and_ POV-files! 
 - [The Mineral and Gemstone Kingdom](http://www.minerals.net/) - *The Mineral and Gemstone Kingdom is a free informational and educational guide to rocks, minerals, gemstones, and jewelry. This site has been providing detailed information and photos of hundreds of mineral and gemstone since 1997 and is one of the leading education resources on minerals and gemstones.*
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia and many other pages at Wikipedia
 - [Mindat.org](https://www.mindat.org/) - According to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
