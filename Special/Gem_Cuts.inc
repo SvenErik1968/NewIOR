@@ -1,5 +1,13 @@
-/*
+#ifdef(Gem_Cuts_Inc_Temp)
+  // do nothing
+#else
+  #declare Gem_Cuts_Inc_Temp = version;
+  #version 3.1;
+  #ifdef(View_POV_Include_Stack)
+    #debug "including Gem_Cuts.inc\n"
+  #end
 
+/*
 From a file called Gems.inc. Creator unknown. Anyone who recognice this?
 
 Contains:
@@ -9,7 +17,6 @@ Contains:
     Square_Stairs
     Emerald_Stairs
     Cabochon
-
 
 If you want to calculate the carat weight of a gem, here is some formulaes (S.G. = Spesific Gravity):
     Round faceted stones: Diameter squared x depth x S.G. x .0018 = carat wt.
@@ -24,7 +31,6 @@ If you want to calculate the carat weight of a gem, here is some formulaes (S.G.
     Square step cut stones:(avg. both meas. for dia.) Diameter squared x depth x S.G. x .0023 = carat wt.
     Rectangular step cut stones: Length x width x depth x S.G. x .0025 = carat wt.
     Cabochon cut stones: Length x width x depth x S.G. x .0027 = carat wt.
-
 */
 
 /////////////
@@ -777,3 +783,5 @@ intersection {
   box { <-1.1, 0, -1.1> <1.1, 1.1, 1.1> }
   scale <1, 0.5, 1>
 }
+  #version Gem_Cuts_Inc_Temp;
+#end

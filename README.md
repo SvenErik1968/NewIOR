@@ -10,32 +10,36 @@ So instead, I decided to put it up here on Github and update it for newer versio
 - Some have been forgotten due to malfunctions in wetware and hardware…
 - Mikhail Elashkin  from the Independent Group "Developing Games Software", Russia, Moscow
 - Sigmund Kyrre Aas (was a student at NTNU, Trondheim, Norway)
-- [Amethyst Galleries' Mineral Gallery](http://www.galleries.com/). If you want to know more about crystals, gemstones and other minerals then this is a fine startpoint.
-- [Mineralogy Database](http://www.webmineral.com/) have a lot of information and images, plus a large link-section to other related sites.
-- [The Mineral and Gemstone Kingdom](http://www.minerals.net/)
+- [Mineralogy Database](http://www.webmineral.com/) have a lot of information and images, plus a large link-section to other related sites. A large portion of the values in these files are from that site.
+  - This site has a [page with links](http://www.webmineral.com/help/Forms.shtml) to pdf's for making paper models of crystal shapes, and a program for crystal shape editing called [KrystalShaper](http://www.jcrystal.com/products/krystalshaper/) that can be used for creating pdf's _and_ POV-files! 
+- [The Mineral and Gemstone Kingdom](http://www.minerals.net/) - *The Mineral and Gemstone Kingdom is a free informational and educational guide to rocks, minerals, gemstones, and jewelry. This site has been providing detailed information and photos of hundreds of mineral and gemstone since 1997 and is one of the leading education resources on minerals and gemstones.*
 - [List of refractive indices](https://en.wikipedia.org/wiki/List_of_refractive_indices) at Wikipedia and many other pages at Wikipedia
-- [Gemdat.org](https://www.gemdat.org/) - the gemstone and gemology information website
-- [Mindat.org](https://www.mindat.org/) - Sister site to Gemdat, according to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
+- [Mindat.org](https://www.mindat.org/) - According to their site, they are *the world’s leading authority on minerals and their localities, deposits, and mines worldwide*.
+- [Gemdat.org](https://www.gemdat.org/) - Sister site to Mindat, the gemstone and gemology information website
+- [Amethyst Galleries' Mineral Gallery](http://www.galleries.com/). If you want to know more about crystals, gemstones and other minerals then this is a fine startpoint.
 - [List of Refractive Indices of Solvents](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm) from Louisiana State University
-- [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html)
-- [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10)
-- [The Physics Hypertextbook - Refraction](https://physics.info/refraction/)
+- [The Engineering ToolBox - Refractive Index for some common Liquids, Solids and Gases](https://www.engineeringtoolbox.com/refractive-index-d_1264.html) - *Refractive Index for some common Liquids, Solids and Gases*
+- [LHCb](https://twiki.cern.ch/twiki/bin/view/LHCb/C4F10) - The IOR value for Perfluoro-n-butane, used in the RICH1 detector at the LHCb experiment comes from here.
+- [The Physics Hypertextbook - Refraction](https://physics.info/refraction/) - *The Physics Hypertextbook - Refraction*
 - International Gem Society's list of [*Gemstones and Refraction Liquids*](https://www.gemsociety.org/article/gemstones-refraction-liquids/) and list of [*Common Household Liquids*](https://www.gemsociety.org/article/refractive-index-list-of-common-household-liquids/)
-- [RefractiveIndex.INFO](https://refractiveindex.info/)
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+- [RefractiveIndex.INFO](https://refractiveindex.info/)- *Refractive index database*
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - *U.S. National Library of Medicin PubChem - the world's largest collection of freely accessible chemical information.*
 - [List of solvents at the Polymer Analysis Laboratory at Louisiana State University](http://macro.lsu.edu/HowTo/solvents/Refractive%20Index.htm)
+
+## Sources
+- For all the values, the source is refererenced in a comment after the IOR value like this [1]. The number is refering to a numbered link in the [*sources.md*](./sources.md) file.
 
 ## Birefringence
 Birefringence is the difference between the highest and lowest IOR in a mineral. Most minerals have a very low birefringence, notable exceptions is the carbonates. The birefringence causes the ray of light that enters a mineral to split in two rays, one slow and one fast. When the two rays exits the crystal they are bent in two different angles. If you were to look through such a mineral (maybe calcite, it has one of the highest birefringence values), you would see two pictures. This is also called double refraction. I will include the birefringence values that I have, which is for most of the uniaxial and biaxial minerals. Hopefully someone will create a patch so it can be of use someday. The birefringence values have been separated into its own file, [*IOR_Birefringence.inc*](./IOR_Birefringence.inc) that will not be loaded by default. To include it, change the value of the flag Birefringence in the [*NewIOR.inc*](./NewIOR.inc) file.
 
 ## Dispersion
-Dispersion is a little more complex than birefringence. Birefringence is affecting all wavelengths of light equally. But refraction is affected by the wavelength too. Blue light is bent more than green light, which is bent more than red light. When the dispersion is low, the white light exits the crystal almost unaffected and we see it as white light. But if the dispersion is high, the different colours are bent in different angles. This is the effect that causes the fire or flashes of colours in cut gemstones like diamond and zircon. This is also the effect that causes the light to split in a glass prism or a drop of water, giving us the rainbow. The dispersion values have been separated into its own file, [*IOR_Dispersion.inc*](./IOR_Dispersion.inc) that is loaded by default.
+Dispersion is a little more complex than birefringence. Birefringence is affecting all wavelengths of light equally. But refraction is affected by the wavelength too. Blue light is bent more than green light, which is bent more than red light. When the dispersion is low, the white light exits the crystal almost unaffected and we see it as white light. But if the dispersion is high, the different colours are bent in different angles. This is the effect that causes the fire or flashes of colours in cut gemstones like diamond and zircon. This is also the effect that causes the light to split in a glass prism or a drop of water, giving us the rainbow. The dispersion values are declared after the IOR-value for those minerals I have values for.
 
 ## Cleavage
 The crystals have been separated into 3 files based on their cleavage structure. The subject is fairly complex, and I have not figured it all out yet. So I will not have a long explanation on the subject here. If you want to read up on it, then take a look at some of the websites that I have listed above.
 
 ## Isotropic minerals
-Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file. Other elements like various organic compounds are also included here.
+Isometric and amorphous (like glass) minerals have essentially the same structure or lack there of, in all directions and so have only one index of refraction and are called isotropic minerals. These minerals are listed in the [*IOR_Isotropic.inc*](./IOR_Isotropic.inc) file. Other elements like various organic or artificial compounds are also included here.
 
 ## Uniaxial minerals
 Hexagonal, trigonal and tetragonal minerals have a different structure along their primary axes than they do in all other directions and for this reason they have two indices of refraction, one along the primary axis and one for every other direction. These minerals are called uniaxial minerals for their one unique direction. These minerals are listed in the [*IOR_Uniaxial.inc*](./IOR_Uniaxial.inc) file.

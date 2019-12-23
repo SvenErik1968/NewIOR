@@ -1,11 +1,6 @@
-#ifdef(IOR_Gemstones_inc_Temp)
-    // do nothing
-#else
-    #declare IOR_Gemstones_inc_Temp = version;
-    #version 3.7;
-    #ifdef(View_POV_Include_Stack)
-        #debug "including IOR_Gemstones.inc\n"
-    #end
+#ifdef(View_POV_Include_Stack)
+    #debug "  - including IOR_Gemstones.inc\n"
+#end
 
 /*
 
@@ -14,290 +9,217 @@ Gemstones
 This is an extract from the NewIOR-files containing the IOR-values for the gemstones.
 
 */
+#declare IOR_Actinolite = 1.63416666666667; // Source: [2]
+#declare IOR_Adamite = 1.742; // Source: [2]
+#declare IOR_Aegirine = 1.7755; // Source: [2]
+#declare IOR_Albite = 1.534925; // Source: [74]
+#declare IOR_Amblygonite = 1.60333333333333; // Source: [2]
+#declare Disp_Amblygonite = 0.0145;
+#declare IOR_Analcime = 1.4865; // Source: [2]
+#declare IOR_Anglesite = 1.88533333333333; // Source: [2]
+#declare Disp_Anglesite = 0.044;
+#declare IOR_Anhydrite = 1.587; // Source: [2]
+#declare Disp_Anhydrite = 0.013;
+#declare IOR_Anorthite = 1.58011666666667; // Source: [2]
+#declare IOR_Anorthoclase = 1.52816666666667; // Source: [2]
+#declare IOR_Anthophyllite = 1.64566666666667; // Source: [2]
+#declare IOR_Antigorite = 1.56466666666667; // Source: [2]
+#declare IOR_Aragonite = 1.632; // Source: [2]
+#declare IOR_Arrojadite = 1.66966666666667; // Source: [2]
+#declare IOR_Astrophyllite = 1.70333333333333; // Source: [2]
+#declare IOR_Augelite = 1.57906666666667; // Source: [2]
+#declare IOR_Augite = 1.70216666666667; // Source: [2]
+#declare IOR_Baddeleyite = 2.17333333333333; // Source: [2]
+#declare IOR_Bertrandite = 1.60333333333333; // Source: [2]
+#declare IOR_Beryllonite = 1.55696666666667; // Source: [2]
+#declare Disp_Beryllonite = 0.01;
+#declare IOR_Brazilianite = 1.61375; // Source: [2]
+#declare Disp_Brazilianite = 0.014;
+#declare IOR_Brookite = 2.63083333333333; // Source: [2]
+#declare IOR_Bustamite = 1.67616666666667; // Source: [2]
+#declare IOR_Bytownite = 1.5729; // Source: [2]. Comment: Mineral name not approved by the IMA
+#declare Disp_Bytownite = 0.012;
+#declare IOR_Caledonite = 1.86433333333333; // Source: [2]
+#declare IOR_Catapleiite = 1.60333333333333; // Source: [2]
+#declare IOR_Celestine = 1.62533333333333; // Source: [2]
+#declare IOR_Cerussite = 1.98433333333333; // Source: [2]
+#declare Disp_Cerussite = 0.055;
+#declare IOR_Chambersite = 1.73766666666667; // Source: [2]
+#declare IOR_Charoite = 1.554; // Source: [2]
+#declare IOR_Childrenite = 1.67433333333333; // Source: [2]
+#declare IOR_Chondrodite = 1.631; // Source: [2]
+#declare IOR_Chrysocolla = 1.598; // Source: [77]
+#declare IOR_Chrysotile = 1.5695; // Source: [2]
+#declare IOR_Clinochlore = 1.58233333333333; // Source: [2]
+#declare IOR_Clinohedrite = 1.666; // Source: [2]
+#declare IOR_Clinozoisite = 1.719; // Source: [2]
+#declare IOR_Colemanite = 1.59733333333333; // Source: [2]
+#declare IOR_Creedite = 1.47466666666667; // Source: [2]
+#declare IOR_Crocoite = 2.44666666666667; // Source: [2]
+#declare IOR_Cryolite = 1.33916666666667; // Source: [2]
+#declare IOR_Eosphorite = 1.65116666666667; // Source: [2]
+#declare IOR_Epidote = 1.7535; // Source: [2]
+#declare Disp_Epidote = 0.03;
+#declare IOR_Epidote_Pb = 1.81; // Source: [2]
+#declare IOR_Esperite = 1.76866666666667; // Source: [2]
+#declare IOR_Euclase = 1.65933333333333; // Source: [2]
+#declare Disp_Euclase = 0.016;
+#declare IOR_Faustite = 1.613; // Source: [2]
+#declare IOR_Fayalite = 1.8045; // Source: [2]
+#declare IOR_Friedelite = 1.649; // Source: [2]
+#declare IOR_Gedrite = 1.68066666666667; // Source: [2]
+#declare IOR_Goethite = 2.375; // Source: [2]
+#declare IOR_Gypsum = 1.524; // Source: [2]
+#declare IOR_Hemimorphite = 1.62233333333333; // Source: [2]
+#declare Disp_Hemimorphite = 0.02;
+#declare IOR_Herderite = 1.60766666666667; // Source: [2]
+#declare IOR_Hodgkinsonite = 1.73566666666667; // Source: [2]
+#declare IOR_Holmquistite = 1.63816666666667; // Source: [2]
+#declare IOR_Howlite = 1.59; // Source: [2]
+#declare IOR_Humite = 1.63933333333333; // Source: [2]
+#declare IOR_Hureaulite = 1.65366666666667; // Source: [2]
+#declare IOR_Hurlbutite = 1.6; // Source: [2]
+#declare IOR_Hypersthene = 1.719; // Source: [2]. Comment: IMA Discredited Mineral Species Name
+#declare IOR_Inderite = 1.49466666666667; // Source: [2]
+#declare IOR_Johachidolite = 1.71833333333333; // Source: [2]
+#declare IOR_Lazulite = 1.643; // Source: [2]
+#declare Disp_Lazulite = 0.014;
+#declare IOR_Legrandite = 1.7085; // Source: [2]
+#declare IOR_Lepidolite = 1.55733333333333; // Source: [2]
+#declare IOR_Linarite = 1.83533333333333; // Source: [2]
+#declare IOR_Lizardite = 1.5579; // Source: [2]
+#declare IOR_Ludlamite = 1.675; // Source: [2]
+#declare IOR_Microcline = 1.52166666666667; // Source: [2]
+#declare IOR_Montebrasite = 1.6; // Source: [2]. Comment: IMA Discredited Mineral Species Name
+#declare IOR_Muscovite = 1.58666666666667; // Source: [2]
+#declare IOR_Natrolite = 1.486; // Source: [2]
+#declare IOR_Neptunite = 1.70481666666667; // Source: [2]
+#declare IOR_Nifontovite = 1.579; // Source: [2]
+#declare IOR_Norbergite = 1.57333333333333; // Source: [2]
+#declare IOR_Oligoclase = 1.54241666666667; // Source: [2]
+#declare IOR_Olivine = 1.66; // Source: [2]. Comment: Mineral name not approved by the IMA
+#declare Disp_Olivine = 0.02;
+#declare IOR_Omphacite = 1.69216666666667; // Source: [2]
+#declare IOR_Papagoite = 1.64; // Source: [2]
+#declare IOR_Pargasite = 1.64; // Source: [2]
+#declare IOR_Petalite = 1.51; // Source: [2]
+#declare Disp_Petalite = 0.0141;
+#declare IOR_Phosphophyllite = 1.60833333333333; // Source: [2]
+#declare IOR_Phosphosiderite = 1.71833333333333; // Source: [2]
+#declare IOR_Poldervaartite = 1.64333333333333; // Source: [2]
+#declare IOR_Purpurite = 1.894; // Source: [2]
+#declare IOR_Pyrophyllite = 1.577; // Source: [2]
+#declare IOR_Pyroxmangite = 1.74333333333333; // Source: [2]
+#declare IOR_Realgar = 2.642; // Source: [2]
+#declare IOR_Rhodonite = 1.72983333333333; // Source: [2]
+#declare IOR_Sanidine = 1.52533333333333; // Source: [2]
+#declare IOR_Sapphirine = 1.71733333333333; // Source: [2]
+#declare Disp_Sapphirine = 0.019;
+#declare IOR_Sarcopside = 1.71133333333333; // Source: [2]
+#declare IOR_Schultenite = 1.92566666666667; // Source: [2]
+#declare IOR_Scolecite = 1.51566666666667; // Source: [2]
+#declare IOR_Scorzalite = 1.64266666666667; // Source: [2]
+#declare IOR_Serandite = 1.688; // Source: [2]
+#declare IOR_Serendibite = 1.70333333333333; // Source: [2]
+#declare IOR_Shattuckite = 1.78333333333333; // Source: [2]
+#declare IOR_Shortite = 1.552; // Source: [2]
+#declare IOR_Sillimanite = 1.66516666666667; // Source: [2]
+#declare IOR_Sonolite = 1.77666666666667; // Source: [2]
+#declare IOR_Staurolite = 1.74733333333333; // Source: [2]
+#declare IOR_Stibiotantalite = 2.41163333333333; // Source: [2]
+#declare IOR_Strontianite = 1.61683333333333; // Source: [2]
+#declare IOR_Sulfur = 2.08026666666667; // Source: [2]
+#declare IOR_Sussexite = 1.71; // Source: [2]
+#declare IOR_Talc = 1.572; // Source: [2]
+#declare IOR_Tantalite_Mn = 2.215; // Source: [2]
+#declare IOR_Tavorite = 1.81333333333333; // Source: [2]
+#declare IOR_Tinzenite = 1.69933333333333; // Source: [2]
+#declare IOR_Tremolite = 1.61866666666667; // Source: [2]
+#declare IOR_Triplite = 1.66333333333333; // Source: [2]
+#declare IOR_Ulexite = 1.50666666666667; // Source: [2]
+#declare IOR_Variscite = 1.58166666666667; // Source: [2]
+#declare IOR_Vivianite = 1.632; // Source: [2]
+#declare IOR_Wavellite = 1.53833333333333; // Source: [2]
+#declare IOR_Witherite = 1.62733333333333; // Source: [2]
+#declare IOR_Xonotlite = 1.58766666666667; // Source: [2]
+#declare IOR_Zektzerite = 1.58333333333333; // Source: [2]
+#declare IOR_Boleite = 2.05; // Source: [3]
+#declare Disp_Boleite = 0.071;
+#declare IOR_Franklinite = 2.36; // Source: [3]
+#declare IOR_Gahnite = 1.804; // Source: [55]
+#declare IOR_Hercynite = 1.815; // Source: [57]
+#declare IOR_Hibschite = 1.675; // Source: [3]
+#declare IOR_Jacobsite = 2.3; // Source: [3]
+#declare IOR_Londonite = 1.693; // Source: [3]
+#declare IOR_Magnetite = 2.42; // Source: [3]
+#declare IOR_Microlite = 2.0065; // Source: [70]
+#declare IOR_Nosean = 1.4875; // Source: [3]
+#declare IOR_Periclase = 1.7365; // Source: [62]
+#declare IOR_Pollucite = 1.521; // Source: [63]
+#declare Disp_Pollucite = 0.014;
+#declare IOR_Schorlomite = 1.96; // Source: [65]
+#declare IOR_Sodalite = 1.483; // Source: [66]
+#declare Disp_Sodalite = 0.018;
+#declare IOR_Uvarovite = 1.87; // Source: [71]
+#declare Disp_Uvarovite = 0.0175;
+#declare IOR_Villiaumite = 1.33; // Source: [72]
+#declare IOR_Afghanite = 1.526; // Source: [4]
+#declare IOR_Apophyllite = 1.536; // Source: [4]. Comment: Mineral name not approved by the IMA
+#declare IOR_Brucite = 1.57; // Source: [4]
+#declare IOR_Calcite = 1.59533333333333; // Source: [4]
+#declare Disp_Calcite = 0.0125;
+#declare IOR_Cancrinite = 1.50825; // Source: [4]
+#declare IOR_Carletonite = 1.519; // Source: [4]
+#declare IOR_Cassiterite = 2.04825; // Source: [4]
+#declare Disp_Cassiterite = 0.071;
+#declare IOR_Covellite = 2.035; // Source: [4]
+#declare IOR_Dolomite = 1.62; // Source: [4]
+#declare IOR_Dravite = 1.632; // Source: [4]
+#declare Disp_Dravite = 0.017;
+#declare IOR_Elbaite = 1.633; // Source: [4]
+#declare Disp_Elbaite = 0.017;
+#declare IOR_Ettringite = 1.4805; // Source: [4]
+#declare IOR_Ferronigerite_2N1S = 1.805; // Source: [4]
+#declare IOR_Foitite = 1.653; // Source: [4]
+#declare IOR_Hardystonite = 1.6665; // Source: [4]
+#declare IOR_Jeremejevite = 1.6465; // Source: [4]
+#declare IOR_Leucite = 1.5085; // Source: [60]
+#declare Disp_Leucite = 0.01;
+#declare IOR_Liddicoatite = 1.629; // Source: [4]
+#declare IOR_Magnesite = 1.57266666666667; // Source: [4]
+#declare IOR_Marialite = 1.538; // Source: [4]
+#declare IOR_Meionite = 1.5725; // Source: [4]
+#declare IOR_Mellite = 1.525; // Source: [4]
+#declare IOR_Milarite = 1.54; // Source: [4]
+#declare IOR_Mimetite = 2.1365; // Source: [4]
+#declare IOR_Narsarsukite = 1.6195; // Source: [4]
+#declare IOR_Nepheline = 1.538; // Source: [4]
+#declare IOR_Phenakite = 1.662; // Source: [4]
+#declare Disp_Phenakite = 0.015;
+#declare IOR_Phosgenite = 2.127; // Source: [4]
+#declare IOR_Povondraite = 1.7855; // Source: [4]
+#declare IOR_Powellite = 1.979; // Source: [4]
+#declare IOR_Pyromorphite = 2.054; // Source: [4]
+#declare IOR_Rhodochrosite = 1.706; // Source: [4]
+#declare Disp_Rhodochrosite = 0.015;
+#declare IOR_Rossmanite = 1.6345; // Source: [4]
+#declare IOR_Rutile = 2.75825; // Source: [4]
+#declare IOR_Scapolite = 1.5585; // Source: [4]. Comment: Mineral name not approved by the IMA
+#declare Disp_Scapolite = 0.017;
+#declare IOR_Scheelite = 1.92725; // Source: [4]
+#declare Disp_Scheelite = 0.038;
+#declare IOR_Schorl = 1.65125; // Source: [4]
+#declare IOR_Sellaite = 1.384; // Source: [4]
+#declare IOR_Sogdianite = 1.607; // Source: [4]
+#declare IOR_Sugilite = 1.5935; // Source: [4]
+#declare IOR_Thaumasite = 1.4875; // Source: [4]
+#declare IOR_Tugtupite = 1.499; // Source: [4]
+#declare IOR_Wardite = 1.59825; // Source: [4]
+#declare IOR_Whitlockite = 1.6275; // Source: [4]
+#declare IOR_Wulfenite = 2.353; // Source: [4]
+#declare IOR_Zincite = 2.021; // Source: [4]
 
-// Gemstones in the Elements class:
-// DIAMOND
-#declare Diamond_IOR_n_1 = 2.4175;
-#declare Diamond_IOR_n_2 = 2.4178;
-
-
-// Gemstones in the Oxides class:
-// CORUNDUM
-// Variety: Ruby
-// Variety: Sapphire
-#declare Corundum_IOR_e_1 = 1.76;
-#declare Corundum_IOR_w_1 = 1.768;
-#declare Corundum_Birefringence_1 = 0.0080;
-
-// CHRYSOBERYL
-// Variety: ALEXANDRITE
-// Variety: YELLOW-GREEN CHRYSOBERYL
-// Variety: CAT'S EYE CHRYSOBERYL
-#declare Chrysoberyl_IOR_a_1 = 1.745;
-#declare Chrysoberyl_IOR_b_1 = 1.748;
-#declare Chrysoberyl_IOR_g_1 = 1.754;
-#declare Chrysoberyl_Birefringence_1 = 0.0090;
-
-// PERICLASE
-#declare Periclase_IOR_n_1 = 1.74;
-
-// SPINEL
-#declare Spinel_IOR_n_1 = 1.72;
-#declare Spinel_IOR_n_2 = 1.8;
-
-// Taaffeite
-#declare Taaffeite_IOR_e_1 = 1.777;
-#declare Taaffeite_IOR_w_1 = 1.722;
-#declare Taaffeite_Birefringence_1 = 0.0550;
-
-
-// Gemstones in the Carbonate class:
-// RHODOCHROSITE
-#declare Rhodochrosite_IOR_e_1 = 1.596;
-#declare Rhodochrosite_IOR_e_2 = 1.598;
-#declare Rhodochrosite_IOR_w_1 = 1.814;
-#declare Rhodochrosite_IOR_w_2 = 1.816;
-#declare Rhodochrosite_Birefringence_1 = 0.2180;
-
-// SINHALITE (a borate mineral)
-
-
-// Gemstones in the Phosphate class:
-// APATITE
-#declare Apatite_IOR_e_1 = 1.63;
-#declare Apatite_IOR_w_1 = 1.633;
-#declare Apatite_Birefringence_1 = 0.0030;
-
-// BRAZILIANITE
-#declare Brazilianite_IOR_a_1 = 1.602;
-#declare Brazilianite_IOR_b_1 = 1.609;
-#declare Brazilianite_IOR_g_1 = 1.621;
-#declare Brazilianite_IOR_g_2 = 1.623;
-#declare Brazilianite_Birefringence_1 = 0.0190;
-#declare Brazilianite_Birefringence_2 = 0.0210;
-
-// TURQUOISE
-#declare Turquoise_IOR_a_1 = 1.61;
-#declare Turquoise_IOR_b_1 = 1.615;
-#declare Turquoise_IOR_g_1 = 1.65;
-#declare Turquoise_Birefringence_1 = 0.0400;
-
-
-// Gemstones in the Silicate class:
-// ANDALUSITE
-#declare Andalusite_IOR_a_1 = 1.629;
-#declare Andalusite_IOR_a_2 = 1.64;
-#declare Andalusite_IOR_b_1 = 1.633;
-#declare Andalusite_IOR_b_2 = 1.644;
-#declare Andalusite_IOR_g_1 = 1.638;
-#declare Andalusite_IOR_g_2 = 1.65;
-#declare Andalusite_Birefringence_1 = 0.0090;
-#declare Andalusite_Birefringence_2 = 0.0100;
-
-// AXINITE
-#declare Axinite_IOR_a_1 = 1.685;
-
-// BENITOITE
-#declare Benitoite_IOR_e_1 = 1.804;
-#declare Benitoite_IOR_w_1 = 1.757;
-#declare Benitoite_Birefringence_1 = 0.0470;
-
-// BERYL
-// Variety: AQUAMARINE
-// Variety: EMERALD
-// Variety: GOSHENITE
-// Variety: HELIODOR
-// Variety: MORGANITE
-// Variety: RED BERYL
-#declare Beryl_IOR_e_1 = 1.564;
-#declare Beryl_IOR_e_2 = 1.595;
-#declare Beryl_IOR_w_1 = 1.568;
-#declare Beryl_IOR_w_2 = 1.602;
-#declare Beryl_Birefringence_1 = 0.0040;
-#declare Beryl_Birefringence_2 = 0.0070;
-
-// CORDIERITE
-// Variety: IOLITE
-#declare Cordierite_IOR_a_1 = 1.527;
-#declare Cordierite_IOR_a_2 = 1.56;
-#declare Cordierite_IOR_b_1 = 1.532;
-#declare Cordierite_IOR_b_2 = 1.574;
-#declare Cordierite_IOR_g_1 = 1.538;
-#declare Cordierite_IOR_g_2 = 1.578;
-#declare Cordierite_Birefringence_1 = 0.0110;
-#declare Cordierite_Birefringence_2 = 0.0180;
-
-// DIOPSIDE
-#declare Diopside_IOR_a_1 = 1.663;
-#declare Diopside_IOR_a_2 = 1.699;
-#declare Diopside_IOR_b_1 = 1.671;
-#declare Diopside_IOR_b_2 = 1.705;
-#declare Diopside_IOR_g_1 = 1.693;
-#declare Diopside_IOR_g_2 = 1.728;
-#declare Diopside_Birefringence_1 = 0.0290;
-#declare Diopside_Birefringence_2 = 0.0300;
-
-// EUCLASE
-#declare Euclase_IOR_a_1 = 1.652;
-#declare Euclase_IOR_b_1 = 1.655;
-#declare Euclase_IOR_g_1 = 1.671;
-#declare Euclase_Birefringence_1 = 0.0190;
-
-// THE GARNETS:
-// ALMANDINE
-#declare Almandine_IOR_n_1 = 1.83;
-
-// ANDRADITE
-// Variety: DEMANTOID
-#declare Andradite_IOR_n_1 = 1.87;
-#declare Andradite_IOR_n_2 = 1.89;
-
-// GROSSULAR
-// Variety: HESSONITE
-// Variety: TSAVORITE
-#declare Grossular_IOR_n_1 = 1.734;
-#declare Grossular_IOR_n_2 = 1.75;
-
-// PYROPE
-#declare Pyrope_IOR_n_1 = 1.73;
-#declare Pyrope_IOR_n_2 = 1.76;
-
-// SPESSARTINE
-#declare Spessartine_IOR_n_1 = 1.8;
-
-// UVAROVITE
-#declare Uvarovite_IOR_n_1 = 1.86;
-
-// JADE (a variety of two minerals: Jadeite and Nephrite (is a variety of Actinolite)
-// JADEITE
-#declare Jadeite_IOR_a_1 = 1.654;
-#declare Jadeite_IOR_a_2 = 1.673;
-#declare Jadeite_IOR_b_1 = 1.659;
-#declare Jadeite_IOR_b_2 = 1.679;
-#declare Jadeite_IOR_g_1 = 1.667;
-#declare Jadeite_IOR_g_2 = 1.693;
-#declare Jadeite_Birefringence_1 = 0.0130;
-#declare Jadeite_Birefringence_2 = 0.0200;
-
-// ACTINOLITE
-// Variety: NEPHRITE
-#declare Actinolite_IOR_a_1 = 1.613;
-#declare Actinolite_IOR_a_2 = 1.628;
-#declare Actinolite_IOR_b_1 = 1.627;
-#declare Actinolite_IOR_b_2 = 1.644;
-#declare Actinolite_IOR_g_1 = 1.638;
-#declare Actinolite_IOR_g_2 = 1.655;
-#declare Actinolite_Birefringence_1 = 0.0250;
-#declare Actinolite_Birefringence_2 = 0.0270;
-
-// KORNERUPINE
-#declare Kornerupine_IOR_a_1 = 1.665;
-#declare Kornerupine_IOR_b_1 = 1.676;
-#declare Kornerupine_IOR_g_1 = 1.677;
-#declare Kornerupine_Birefringence_1 = 0.0120;
-
-// OLIVINE
-// Variety: PERIDOT
-#declare Olivine_IOR_a_1 = 1.63;
-#declare Olivine_IOR_a_2 = 1.65;
-#declare Olivine_IOR_b_1 = 1.65;
-#declare Olivine_IOR_b_2 = 1.67;
-#declare Olivine_IOR_g_1 = 1.67;
-#declare Olivine_IOR_g_2 = 1.69;
-#declare Olivine_Birefringence_1 = 0.0400;
-
-// QUARTZ
-// Variety: AMETHYST
-// Variety: CITRINE
-// Variety: ROCK CRYSTAL
-// Variety: ROSE QUARTZ
-// Variety: SMOKY QUARTZ
-#declare Quartz_IOR_e_1 = 1.552;
-#declare Quartz_IOR_e_2 = 1.554;
-#declare Quartz_IOR_w_1 = 1.543;
-#declare Quartz_IOR_w_2 = 1.545;
-#declare Quartz_Birefringence_1 = 0.0090;
-
-// SCAPOLITE
-#declare Scapolite_IOR_e_1 = 1.522;
-#declare Scapolite_IOR_e_2 = 1.571;
-#declare Scapolite_IOR_w_1 = 1.534;
-#declare Scapolite_IOR_w_2 = 1.607;
-#declare Scapolite_Birefringence_1 = 0.0120;
-#declare Scapolite_Birefringence_2 = 0.0360;
-
-// SPODUMENE
-// Variety: KUNZITE
-// Variety: HIDDENITE
-#declare Spodumene_IOR_a_1 = 1.648;
-#declare Spodumene_IOR_a_2 = 1.661;
-#declare Spodumene_IOR_b_1 = 1.655;
-#declare Spodumene_IOR_b_2 = 1.67;
-#declare Spodumene_IOR_g_1 = 1.662;
-#declare Spodumene_IOR_g_2 = 1.679;
-#declare Spodumene_Birefringence_1 = 0.0140;
-#declare Spodumene_Birefringence_2 = 0.0180;
-
-// TITANITE (also known as sphene)
-#declare Titanite_IOR_a_1 = 1.84;
-#declare Titanite_IOR_a_2 = 1.95;
-#declare Titanite_IOR_b_1 = 1.87;
-#declare Titanite_IOR_b_2 = 2.034;
-#declare Titanite_IOR_g_1 = 1.943;
-#declare Titanite_IOR_g_2 = 2.11;
-#declare Titanite_Birefringence_1 = 0.1030;
-#declare Titanite_Birefringence_2 = 0.1600;
-
-// TOPAZ
-#declare Topaz_IOR_a_1 = 1.606;
-#declare Topaz_IOR_a_2 = 1.629;
-#declare Topaz_IOR_b_1 = 1.609;
-#declare Topaz_IOR_b_2 = 1.631;
-#declare Topaz_IOR_g_1 = 1.616;
-#declare Topaz_IOR_g_2 = 1.638;
-#declare Topaz_Birefringence_1 = 0.0090;
-#declare Topaz_Birefringence_2 = 0.0100;
-
-// THE TOURMALINES:
-// ELBAITE
-// Variety: INDICOLITE
-#declare Elbaite_IOR_e_1 = 1.615;
-#declare Elbaite_IOR_e_2 = 1.632;
-#declare Elbaite_IOR_w_1 = 1.635;
-#declare Elbaite_IOR_w_2 = 1.65;
-#declare Elbaite_Birefringence_1 = 0.0180;
-#declare Elbaite_Birefringence_2 = 0.0200;
-
-// ZIRCON
-#declare Zircon_IOR_e_1 = 1.92;
-#declare Zircon_IOR_e_2 = 1.96;
-#declare Zircon_IOR_w_1 = 1.967;
-#declare Zircon_IOR_w_2 = 2.015;
-#declare Zircon_Birefringence_1 = 0.0470;
-#declare Zircon_Birefringence_2 = 0.0550;
-
-// ZOISITE
-// Variety: TANZANITE
-#declare Zoisite_IOR_a_1 = 1.696;
-#declare Zoisite_IOR_a_2 = 1.7;
-#declare Zoisite_IOR_b_1 = 1.696;
-#declare Zoisite_IOR_b_2 = 1.702;
-#declare Zoisite_IOR_g_1 = 1.702;
-#declare Zoisite_IOR_g_2 = 1.718;
-#declare Zoisite_Birefringence_1 = 0.0060;
-#declare Zoisite_Birefringence_2 = 0.0180;
-
-// Gemstones in the Mineraloids class:
-// AMBER
-#declare Amber_IOR_n_1 = 1.53;
-#declare Amber_IOR_n_2 = 1.54;
-
-// OPAL
-#declare Opal_IOR_n_1 = 1.43;
-
-// TEKTITES
-// Variety: MOLDAVITE
-
-    #version IOR_Gemstones_inc_Temp;
+#ifdef(View_POV_Include_Stack)
+    #debug "    ...done!\n"
 #end
 // END OF FILE IOR_Gemstones.inc
