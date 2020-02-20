@@ -8,7 +8,7 @@
 ![maintained](https://img.shields.io/maintenance/yes/2020?style=plastic)
 
 # NewIOR
-## Additional index of refraction values for use with POV-Ray - The Persistence of Vision Raytracer™ ![POV-Ray logo](./POVRay_logo.svg)
+## Additional index of refraction values for use with _POV-Ray - The Persistence of Vision Raytracer™_ ![POV-Ray logo](./POVRay_logo.svg)
 This is initially based on the v4.10b that I released back in 2001-03-09 (The first version was released back in 1994!). My use of POV-Ray have been rather infrequent since then, but I have now started to "play around" with it a little bit again. ;-)
 
 That old version is still available on a free webhosting site, but I don't have the password to it anymore. I also don't have access to the email address the site was registered with… ;-)
