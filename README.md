@@ -1,3 +1,7 @@
+![code-size](https://img.shields.io/github/languages/code-size/SvenErik1968/NewIOR?style=plastic)
+![release-date](https://img.shields.io/github/release-date/SvenErik1968/NewIOR?style=plastic)
+![last-commit](https://img.shields.io/github/last-commit/SvenErik1968/NewIOR?style=plastic)
+
 # NewIOR
 ## Additional index of refraction values for use with POV-Ray - The Persistence of Vision Raytracer™.
 This is initially based on the v4.10b that I released back in 2001-03-09 (The first version was released back in 1994!). My use of POV-Ray have been rather infrequent since then, but I have now started to "play around" with it a little bit again. ;-)
