@@ -1,11 +1,9 @@
-![latest release](https://badgen.net/github/tag/SvenErik1968/NewIOR)
-[![issues](https://img.shields.io/github/issues/SvenErik1968/NewIOR?style=plastic)](https://github.com/SvenErik1968/NewIOR/issues)
-![code-size](https://img.shields.io/github/languages/code-size/SvenErik1968/NewIOR?style=plastic)
-![release-date](https://img.shields.io/github/release-date/SvenErik1968/NewIOR?style=plastic)
-![last-commit](https://img.shields.io/github/last-commit/SvenErik1968/NewIOR?style=plastic)
-[![pov-version](https://img.shields.io/badge/POV--Ray-3.8-blue?style=plastic)](https://www.povray.org/)
-[![License](https://img.shields.io/github/license/SvenErik1968/NewIOR.svg?style=plastic)](https://github.com/SvenErik1968/NewIOR)
-![maintained](https://img.shields.io/maintenance/yes/2020?style=plastic)
+[![POV-Ray version](https://img.shields.io/badge/POV--Ray-3.8-blue?style=plastic)](https://www.povray.org/)
+
+[![Latest release](https://badgen.net/github/release/SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/releases)
+[![Open issues](https://badgen.net/github/open-issues//SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/issues)
+![Last commit](https://badgen.net/github/last-commit/SvenErik1968/NewIOR)
+[![License](https://badgen.net/github/license/SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/blob/master/LICENSE)
 
 # NewIOR
 ## Additional index of refraction values for use with _POV-Ray - The Persistence of Vision Raytracer™_ ![POV-Ray logo](./POVRay_logo.svg)
