@@ -1,6 +1,7 @@
 ![code-size](https://img.shields.io/github/languages/code-size/SvenErik1968/NewIOR?style=plastic)
 ![release-date](https://img.shields.io/github/release-date/SvenErik1968/NewIOR?style=plastic)
 ![last-commit](https://img.shields.io/github/last-commit/SvenErik1968/NewIOR?style=plastic)
+![pov-ray-version](https://img.shields.io/badge/POV--Ray-3.8-blue)
 
 # NewIOR
 ## Additional index of refraction values for use with POV-Ray - The Persistence of Vision Raytracer™.
