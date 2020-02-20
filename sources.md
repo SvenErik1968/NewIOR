@@ -79,4 +79,3 @@ Here is a list of sources for the IOR, dispersion and birefringence values:
 * [76] : [https://www.gemsociety.org/article/refractive-index-list-of-common-household-liquids/](https://www.gemsociety.org/article/refractive-index-list-of-common-household-liquids/)
 * [77] : [https://www.mindat.org/min-1040.html](https://www.mindat.org/min-1040.html)
 * [78] : (Unknown source)
-* [79] : [https://www.gemdat.org/gem-712.html](https://www.gemdat.org/gem-712.html)
