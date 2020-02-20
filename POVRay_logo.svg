@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7.0900064mm"
+   height="10.583333mm"
+   viewBox="0 0 7.0900064 10.583333"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="POVRay_logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="223.363"
+     inkscape:cy="22.325778"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.52094963,-0.56452846)">
+    <g
+       id="povray_logo"
+       inkscape:label="povray_logo"
+       transform="translate(-41.833053,-69.629083)">
+      <title
+         id="title3713">POV-Ray logo</title>
+      <g
+         aria-label="P"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'POV-Ray Logo';-inkscape-font-specification:'POV-Ray Logo';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         id="text12">
+        <path
+           d="m 45.847329,71.92994 q 0.558106,0 0.950847,0.413411 0.413411,0.392741 0.413411,0.950846 0,0.578776 -0.413411,0.971517 -0.392741,0.392741 -0.950847,0.392741 -0.558105,0 -0.971517,-0.392741 -0.39274,-0.392741 -0.39274,-0.971517 0,-0.558105 0.39274,-0.950846 0.413412,-0.413411 0.971517,-0.413411 z m -1.674316,2.315104 q 0.248047,0.434082 0.682129,0.72347 0.454752,0.268717 0.992187,0.268717 0.103353,0 0.3514,-0.04134 l -0.3514,0.516764 q 1.07487,-0.124023 1.819011,-0.785481 0.74414,-0.682129 0.74414,-1.570964 0,-0.992187 -0.909505,-1.694987 -0.909505,-0.702799 -2.211751,-0.702799 -0.992188,0 -1.777669,0.434082 -0.785482,0.434082 -1.116211,1.09554 0.289388,-0.992187 1.240234,-1.632975 0.971517,-0.661459 2.232422,-0.661459 1.467611,0 2.52181,0.909506 1.054199,0.909505 1.054199,2.17041 0,1.281575 -1.054199,2.19108 -1.054199,0.888835 -2.52181,0.888835 -0.310059,0 -0.454753,-0.02067 l -3.059244,4.444173 1.405599,-5.002278 q -0.744141,-0.454753 -1.157552,-1.198893 0.434082,0.558105 1.136881,0.847493 0.04134,0.04134 0.103353,0.04134 z"
+           style="stroke-width:0.26458332"
+           id="path7673"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
