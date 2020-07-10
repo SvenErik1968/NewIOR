@@ -68,5 +68,5 @@ This is an extract from the other files containing the IOR-values for various co
 From an old include file called Gems.inc. Creator is unknown. Anyone who recognice this? It contains object definitions for 6 different common gemstone cuts (*Brillant57*, *Brillant58*, *Stairs*, *Square_Stairs*, *Emerald_Stairs* and *Cabochon*). It also contains formulaes for calculating the carat weight for many cuts. You find these in the [*Gem_Cuts.inc*](./Special/Gem_Cuts.inc) file.
 
 # TODO
-- [ ] - Decide if going to order the minerals bases on Dana classification in addition to the current cleavage ordering.
+- [ ] - Decide if going to order the minerals based on Dana classification in addition to the current cleavage ordering.
 - [ ] - ...
