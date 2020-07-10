@@ -69,4 +69,4 @@ From an old include file called Gems.inc. Creator is unknown. Anyone who recogni
 
 # TODO
 - [ ] - Decide if going to order the minerals based on Dana classification in addition to the current cleavage ordering.
-- [ ] - ...
+- [ ] - Use `MEDIAN` instead of `AVERAGE` in calculations
