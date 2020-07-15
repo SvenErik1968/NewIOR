@@ -2,7 +2,7 @@
 
 [![Latest release](https://badgen.net/github/release/SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/releases)
 [![Open issues](https://badgen.net/github/open-issues//SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/issues)
-![Last commit](https://badgen.net/github/last-commit/SvenErik1968/NewIOR)
+[![Last commit](https://badgen.net/github/last-commit/SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/commits/)
 [![License](https://badgen.net/github/license/SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/blob/master/LICENSE)
 
 # NewIOR
