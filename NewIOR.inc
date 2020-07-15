@@ -11,29 +11,27 @@
     #ifndef(Ior_Inc_Temp)
         #include "ior.inc"
     #end
-/************************************************************************
-/////////////////////////////////////////////////////////////////////////
-//                                                                     //
-// TITLE         : NewIOR.INC                                          //
-// VERSION       : 6.1                                                 //
-// AUTHOR        : Sven-Erik Andersen                                  //
-// FIRST VERSION : 1994.06.28                                          //
-//                                                                     //
-/////////////////////////////////////////////////////////////////////////
 
-The latest version is available at GitHub at
-https://github.com/SvenErik1968/NewIOR
+    /************************************************************************
+    /////////////////////////////////////////////////////////////////////////
+    //                                                                     //
+    // TITLE         : NewIOR.INC                                          //
+    // VERSION       : 6.1.1                                               //
+    // AUTHOR        : Sven-Erik Andersen                                  //
+    // FIRST VERSION : 1994.06.28                                          //
+    //                                                                     //
+    /////////////////////////////////////////////////////////////////////////
 
-If you spot an error or have suggestion for more values, please raise
-an issue in the GitHub repository.
+    The latest version is available at GitHub at
+    https://github.com/SvenErik1968/NewIOR
 
-**********************************************************************************
-*********************************** DEFINITION ***********************************
-**********************************************************************************
-** STP = Standard Temperature and Pressure 20°C and 1 atm. pressure (720 mm Hg) **
-**********************************************************************************
-**********************************************************************************
-*********************************************************************************/
+    If you spot an error or have suggestion for more values, please raise
+    an issue in the GitHub repository.
+
+    * DEFINITIONS:
+    - STP = Standard Temperature and Pressure 20°C and 1 atm. pressure (720 mm Hg)
+    
+    */
 
     // Include the Birefringence file?
     #declare Use_Birefringence = false;
