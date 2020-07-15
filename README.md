@@ -1,4 +1,4 @@
-[![POV-Ray version](https://img.shields.io/badge/POV--Ray-3.7-blue?style=plastic)](https://www.povray.org/)
+[![POV-Ray version](https://badgen.net/badge/POV-Ray/v3.7/blue)](https://www.povray.org/)
 
 [![Latest release](https://badgen.net/github/release/SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/releases)
 [![Open issues](https://badgen.net/github/open-issues//SvenErik1968/NewIOR)](https://github.com/SvenErik1968/NewIOR/issues)
